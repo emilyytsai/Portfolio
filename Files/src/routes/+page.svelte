@@ -12,7 +12,7 @@
 <svelte:head>
   <title>Emily Tsai · Portfolio</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <!-- animate.css -->
   <link
     rel="stylesheet"
@@ -36,7 +36,9 @@
       src="/animated-blur.mp4"
     ></video>
 
-      <h1 class="font-dmsans text-5xl font-semibold text-white relative z-10 animate__animated animate__rubberBand">
+      <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand"
+        out:slide={{ duration: 10 }}
+      >
         Emily Tsai
       </h1>
   </section>
@@ -44,9 +46,8 @@
 
 <!-- portfolio -->
 {#if !showIntro}
-  <main
-    class="relative min-h-screen bg-white text-gray-900"
-  >
+  <main class="relative min-h-screen bg-white text-gray-900">
+
     <video
       autoplay
       muted
@@ -56,9 +57,14 @@
       src="/animated-blur2.mp4"
     ></video>
 
-    <div class="relative z-10 max-w-2xl mx-auto px-2 py-8 space-y-2">
-      <h2 class="font-dmsans text-4xl font-bold">Emily Tsai</h2>
-      <p class="text-lg text-gray-800">Welcome to my portfolio!</p>
+    <div class="font-outfit relative z-10 max-w-2xl mx-auto py-20 space-y-2">
+      <h2 class="text-6xl font-bold text-white">Emily Tsai</h2>
+      <p class="text-3x1 text-white opacity-75">Welcome to my portfolio!</p>
+
+      {#each Array(500) as _, i}
+        <p class="text-white">testing scroll line #{i + 1}</p>
+      {/each}
+
     </div>
   </main>
 {/if}

@@ -26,6 +26,7 @@ export default {
 			domine: ['Domine', 'serif'],
 			raleway: ['Raleway', 'sans-serif'],
 			dmsans: ['DM Sans', 'sans-serif'],
+			outfit: ['Outfit', 'sans-serif'],
 		},
   },
 },
