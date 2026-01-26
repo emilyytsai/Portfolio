@@ -1,6 +1,6 @@
 <script lang="ts">
   import { slide } from 'svelte/transition';
-  import Iridescence from '$lib/Iridescence.svelte';
+  import Aurora from '$lib/aurora.svelte';
 
   let showIntro = true;
 
@@ -23,8 +23,14 @@
     out:slide={{ duration: 1000 }}
   >
     <div class="absolute inset-0 z-0">
-      <Iridescence color={[0.018, 0.024, 0.178]} speed={1.2} amplitude={0.4}/>
+      <Aurora
+        colorStops={['#FF85C6', '#095242', '#5300FF']}
+        amplitude={2}
+        blend={0.5}
+        speed={0.1}
+      />
     </div>
+
   <!-- animate.css -->
       <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand"
         out:slide={{ duration: 10 }}
@@ -36,11 +42,15 @@
 
 <!-- portfolio -->
 {#if !showIntro}
-  <main class="relative min-h-screen flex items-center bg-white text-white">
-  <div class="fixed inset-0 z-0">
-    <Iridescence color={[0.118, 0.024, 0.278]} speed={0.8} amplitude={0.35}/>
-  </div>
-
+  <main class="relative min-h-screen flex items-center bg-black text-white">
+    <div class="fixed inset-0 z-0">
+      <Aurora
+        colorStops={['#FF85C6', '#095242', '#5300FF']}
+        amplitude={2}
+        blend={0.5}
+        speed={0.1}
+      />
+    </div>
     
     <!-- navbar -->
     <nav class="fixed top-0 left-0 w-full bg-white/10 backdrop-blur-md z-20">
