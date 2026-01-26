@@ -33,7 +33,7 @@
       loop
       playsinline
       class="absolute w-full h-full object-cover"
-      src="/animated-blur.mp4"
+      src="/sunlight-aura-background.mp4"
     ></video>
 
       <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand"
@@ -54,7 +54,7 @@
       loop
       playsinline
       class="absolute w-full h-full object-cover"
-      src="/animated-blur2.mp4"
+      src="/sunlight-aura-background.mp4"
     ></video>
 
     <div class="font-outfit relative z-10 max-w-2xl mx-auto py-20 space-y-2">
