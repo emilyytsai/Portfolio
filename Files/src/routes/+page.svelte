@@ -13,7 +13,7 @@
 
 <svelte:head>
   <title>Emily Tsai · Portfolio</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </svelte:head>
 
@@ -27,7 +27,7 @@
       <Aurora
         colorStops={['#FF85C6', '#095242', '#5300FF']}
         amplitude={2}
-        blend={0.5}
+        blend={2}
         speed={0.1}
       />
     </div>
@@ -43,12 +43,12 @@
 
 <!-- portfolio -->
 {#if !showIntro}
-  <main class="relative min-h-screen flex items-center bg-black text-white">
+  <main class="relative min-h-screen bg-black text-white pt-28 flex flex-col items-center">
     <div class="fixed inset-0 z-0">
       <Aurora
         colorStops={['#FF85C6', '#095242', '#5300FF']}
         amplitude={2}
-        blend={0.5}
+        blend={2}
         speed={0.1}
       />
     </div>
@@ -56,7 +56,7 @@
       <Galaxy
         focal={[0.5, 0.5]}
         starSpeed={0.5}
-        density={1.4}
+        density={1.2}
         glowIntensity={0.55}
         transparent={true}
         mouseInteraction={true}
@@ -76,14 +76,35 @@
       </div>
     </nav>
 
-    <div class="font-outfit relative z-20 max-w-2xl mx-auto py-20 space-y-2">
+<!-- home -->
+  <section id="home" class="max-w-2xl mx-auto rounded-2xl z-20 overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+    <img src="/IMG_0394.jpg" class="w-full aspect-square object-cover"/>
+
+    <div class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-3">
       <h2 class="text-6xl font-bold text-white text-center">Hello 🌎, I'm Emi!</h2>
-      <p class="text-3xl text-white opacity-75 text-center">Aspiring Game Developer & Software Engineer 💗</p>
 
-      {#each Array(500) as _, i}
-        <p class="text-white">testing scroll line #{i + 1}</p>
-      {/each}
-
+    <pre class="text-1xl text-white opacity-75 py-2 overflow-x-auto">
+    <code>
+    <span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
+        aspirations: <span class="text-yellow-400">&#91;"Game Developer", "Software Engineer"&#93;</span>,
+        values: <span class="text-pink-400">"Passion", "Perseverance", "Patience"</span>
+    <span class="text-green-400">&#125;</span>;
+    </code>
+    </pre>
     </div>
+  </section>
+
+<!-- about -->
+  <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-3">
+    <h4 class="text-6xl font-bold text-white text-center">About</h4>
+    <p class="text-1xl text-white text-center py-2">
+      I am a 4th Computer Science student at California State University, Fullerton!
+      I currently serve as the President of CSUF's Video Game Development Club (VGDC), the Co-Lead for ACM Node Buds, and Officer for ACM Open Source.  
+      Additionally, I am the Social Media Coordinator for the Engineering & Computer Science Inter-Club Council.  
+      I also love attending hackathons! My first one was FullyHacks, where I won Best Game Project.  
+      I am passionate about game development and building projects that make an impact 💗
+    </p>
+  </section>
+
   </main>
 {/if}
