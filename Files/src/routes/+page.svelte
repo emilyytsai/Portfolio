@@ -25,7 +25,7 @@
   >
     <div class="absolute inset-0 z-0">
       <Aurora
-        colorStops={['#FF85C6', '#095242', '#5300FF']}
+        colorStops={['#1F2D7D', '#37444D', '#30011D']}
         amplitude={2}
         blend={2}
         speed={0.1}
@@ -43,10 +43,10 @@
 
 <!-- portfolio -->
 {#if !showIntro}
-  <main class="relative min-h-screen bg-black text-white pt-28 flex flex-col items-center">
+  <main class="relative min-h-screen bg-slate-900 text-white pt-28 flex flex-col items-center">
     <div class="fixed inset-0 z-0">
       <Aurora
-        colorStops={['#FF85C6', '#095242', '#5300FF']}
+        colorStops={['#1F2D7D', '#37444D', '#30011D']}
         amplitude={2}
         blend={2}
         speed={0.1}
@@ -83,7 +83,7 @@
     <div class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4">
       <h2 class="text-6xl font-bold text-white text-center">Hello 🌎, I'm Emi!</h2>
 
-    <pre class="text-[1.25rem] text-white py-2 overflow-x-auto">
+    <pre class="text-[1.15rem] text-white py-2 overflow-x-auto">
     <code>
     <span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
         aspirations: <span class="text-yellow-400">&#91;"Game Developer", "Software Engineer"&#93;</span>,
@@ -95,7 +95,7 @@
   </section>
 
 <!-- about -->
-  <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-3">
+  <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-6xl font-bold text-white text-center">About</h4>
     <p class="text-1xl text-white text-center py-2">
       I am a 4th Computer Science student at California State University, Fullerton!
