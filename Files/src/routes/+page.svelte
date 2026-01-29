@@ -83,7 +83,7 @@
     <div class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-3">
       <h2 class="text-6xl font-bold text-white text-center">Hello 🌎, I'm Emi!</h2>
 
-    <pre class="text-1xl text-white opacity-75 py-2 overflow-x-auto">
+    <pre class="text-[1.5rem] text-white opacity-75 py-2 overflow-x-auto">
     <code>
     <span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
         aspirations: <span class="text-yellow-400">&#91;"Game Developer", "Software Engineer"&#93;</span>,
