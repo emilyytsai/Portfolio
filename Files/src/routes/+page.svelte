@@ -20,12 +20,12 @@
 <!-- intro screen-->
 {#if showIntro}
   <section
-    class="fixed inset-0 bg-black flex items-center justify-center z-50"
+    class="fixed inset-0 bg-zinc-900 flex items-center justify-center z-50"
     out:slide={{ duration: 800 }}
   >
     <div class="absolute inset-0 z-0">
       <Aurora
-        colorStops={['#1F2D7D', '#37444D', '#30011D']}
+        colorStops={['#DE4F33', '#2A5057', '#30011D']}
         amplitude={2}
         blend={2}
         speed={0.1}
@@ -43,10 +43,10 @@
 
 <!-- portfolio -->
 {#if !showIntro}
-  <main class="relative min-h-screen bg-slate-900 text-white pt-28 flex flex-col items-center">
+  <main class="relative min-h-screen bg-zinc-900 text-white pt-28 flex flex-col items-center">
     <div class="fixed inset-0 z-0">
       <Aurora
-        colorStops={['#1F2D7D', '#37444D', '#30011D']}
+        colorStops={['#DE4F33', '#2A5057', '#30011D']}
         amplitude={2}
         blend={2}
         speed={0.1}
@@ -78,7 +78,7 @@
 
 <!-- home -->
   <section id="home" class="max-w-2xl mx-auto rounded-2xl z-20 overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
-    <img src="/IMG_0394.jpg" class="w-full aspect-square object-cover"/>
+    <img src="/emi-image.jpg" class="w-full object-cover"/>
 
     <div class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4">
       <h2 class="text-6xl font-bold text-white text-center">Hello 🌎, I'm Emi!</h2>
@@ -103,6 +103,22 @@
       Additionally, I am the Social Media Coordinator for the Engineering & Computer Science Inter-Club Council.  
       I also love attending hackathons! My first one was FullyHacks, where I won Best Game Project.  
       I am passionate about game development and building projects that make an impact 💗
+    </p>
+  </section>
+
+  <!-- projects -->
+  <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
+    <h4 class="text-6xl font-bold text-white text-center">Projects</h4>
+    <p class="text-1xl text-white text-center py-2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
+    <h4 class="text-6xl font-bold text-white text-center">Contact</h4>
+    <p class="text-1xl text-white text-center py-2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
   </section>
 
