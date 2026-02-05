@@ -67,7 +67,7 @@
     <nav class="fixed top-0 left-0 w-full bg-white/10 backdrop-blur-md z-30">
       <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div class="font-outfit text-3xl font-semibold">Emily Tsai</div>
-        <ul class="flex space-x-6 text-2xl font-outfit text-white">
+        <ul class="hidden md:flex space-x-6 text-lg font-outfit text-white">
           <li><a href="#home" class="hover:underline">Home</a></li>
           <li><a href="#about" class="hover:underline">About</a></li>
           <li><a href="#projects" class="hover:underline">Projects</a></li>
@@ -78,28 +78,28 @@
 
 <!-- home -->
   <section id="home" class="max-w-2xl mx-auto rounded-2xl z-20 overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
-    <img src="/emi-image.jpg" class="w-full object-cover"/>
+    <img src="/emi-image.jpg" alt="emi" class="w-full h-96 object-cover"/>
 
     <div class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4">
-      <h2 class="text-6xl font-bold text-white text-center">Hello 🌎, I'm Emi!</h2>
+      <h2 class="text-3xl sm:text-4xl md:text-6xl font-bold text-white text-center py-6">Hello 🌎, I'm Emi!</h2>
 
-    <pre class="text-[1.15rem] text-white py-2 overflow-x-auto">
-    <code>
-    <span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
-        aspirations: <span class="text-yellow-400">&#91;"Game Developer", "Software Engineer"&#93;</span>,
-        values: <span class="text-pink-400">"Passion", "Perseverance", "Patience"</span>
-    <span class="text-green-400">&#125;</span>;
-    </code>
-    </pre>
+<pre class="text-xl xl:text-base text-white py-2 overflow-x-auto rounded-lg">
+<code><span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
+  aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
+  values: <span class="text-pink-400">["Passion", "Perseverance", "Patience"]</span>
+<span class="text-green-400">&#125;</span>;
+</code>
+</pre>
+
     </div>
   </section>
 
 <!-- about -->
   <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
-    <h4 class="text-6xl font-bold text-white text-center">About</h4>
-    <p class="text-1xl text-white text-center py-2">
+    <h4 class="text-6xl font-bold text-white text-center pt-6">About</h4>
+    <p class="text-xl xl:text-base text-white text-center py-2">
       I am a 4th Computer Science student at California State University, Fullerton!
-      I currently serve as the President of CSUF's Video Game Development Club (VGDC), the Co-Lead for ACM Node Buds, and Officer for ACM Open Source.  
+      I currently serve as the President of CSUF's Video Game Development Club (VGDC), the Co-Team Lead for ACM Node Buds, and Officer for ACM Open Source.  
       Additionally, I am the Social Media Coordinator for the Engineering & Computer Science Inter-Club Council.  
       I also love attending hackathons! My first one was FullyHacks, where I won Best Game Project.  
       I am passionate about game development and building projects that make an impact 💗
@@ -108,16 +108,16 @@
 
   <!-- projects -->
   <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
-    <h4 class="text-6xl font-bold text-white text-center">Projects</h4>
-    <p class="text-1xl text-white text-center py-2">
+    <h4 class="text-3xl sm:text-4xl md:text-6xl font-bold text-white text-center">Projects</h4>
+    <p class="text-xl xl:text-base text-white text-center py-2">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
   </section>
 
   <!-- contact -->
   <section id="contact" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
-    <h4 class="text-6xl font-bold text-white text-center">Contact</h4>
-    <p class="text-1xl text-white text-center py-2">
+    <h4 class="text-3xl sm:text-4xl md:text-6xl font-bold text-white text-center">Contact</h4>
+    <p class="text-xl xl:text-base text-white text-center py-2 pb-10">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
   </section>
