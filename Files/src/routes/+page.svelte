@@ -20,30 +20,30 @@
 <!-- intro screen-->
 {#if showIntro}
   <section
-    class="fixed inset-0 bg-zinc-900 flex items-center justify-center z-50"
-    out:slide={{ duration: 750 }}
+    class="fixed inset-0 bg-zinc-950 flex items-center justify-center z-50"
+    out:slide={{ duration: 800 }}
   >
-    <div class="absolute inset-0 z-0">
-      <Aurora
-        colorStops={['#DE4F33', '#2A5057', '#30011D']}
-        amplitude={2}
-        blend={2}
-        speed={0.1}
-      />
-    </div>
 
   <!-- animate.css -->
-      <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand"
-        out:slide={{ duration: 100 }}
-      >
+      <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand">
         Emily Tsai
       </h1>
+
+    <div class="absolute inset-0 z-0">
+    <Aurora
+      colorStops={['#DE4F33', '#2A5057', '#30011D']}
+      amplitude={2}
+      blend={2}
+      speed={0.1}
+    />
+    </div>
+    
   </section>
 {/if}
 
 <!-- portfolio -->
 {#if !showIntro}
-  <main class="relative min-h-screen bg-zinc-950 text-white pt-28 flex flex-col items-center">
+  <main class="relative min-h-screen bg-zinc-900 text-white pt-28 flex flex-col items-center">
     <div class="fixed inset-0 z-0">
       <Aurora
         colorStops={['#DE4F33', '#2A5057', '#30011D']}
@@ -68,10 +68,10 @@
       <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div class="font-outfit text-3xl font-semibold">Emily Tsai</div>
         <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
-          <li><a href="#home" class="hover:text-sky-200 transition">Home</a></li>
+          <li><a href="#home" class="hover:text-teal-100 transition">Home</a></li>
           <li><a href="#about" class="hover:text-sky-200 transition">About Me</a></li>
-          <li><a href="#projects" class="hover:text-sky-200 transition">Projects</a></li>
-          <li><a href="#contact" class="hover:text-sky-200 transition">Contact</a></li>
+          <li><a href="#projects" class="hover:text-indigo-200 transition">Projects</a></li>
+          <li><a href="#contact" class="hover:text-pink-200 transition">Contact</a></li>
         </ul>
       </div>
     </nav>
