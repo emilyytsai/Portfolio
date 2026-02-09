@@ -21,7 +21,7 @@
 {#if showIntro}
   <section
     class="fixed inset-0 bg-zinc-950 flex items-center justify-center z-50"
-    out:slide={{ duration: 800 }}
+    out:slide={{ duration: 700 }}
   >
 
   <!-- animate.css -->
@@ -37,7 +37,7 @@
       speed={0.1}
     />
     </div>
-    
+
   </section>
 {/if}
 
@@ -70,23 +70,29 @@
         <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
           <li><a href="#home" class="hover:text-teal-100 transition">Home</a></li>
           <li><a href="#about" class="hover:text-sky-200 transition">About Me</a></li>
-          <li><a href="#projects" class="hover:text-indigo-200 transition">Projects</a></li>
-          <li><a href="#contact" class="hover:text-pink-200 transition">Contact</a></li>
+          <li><a href="#projects" class="hover:text-blue-200 transition">Projects</a></li>
+          <li><a href="#contact" class="hover:text-purple-200 transition">Contact</a></li>
+          <li><a href="#gallery" class="hover:text-pink-200 transition">Gallery</a></li>
         </ul>
       </div>
     </nav>
 
 <!-- home -->
-  <section id="home" class="max-w-2xl mx-auto rounded-2xl z-20 overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
-    <img src="/emi-image.jpg" alt="emi" class="w-80 h-64 sm:w-120 sm:h-80 md:w-full md:h-96 object-cover"/>
+  <section id="home" class="mx-auto max-w-xl z-20 rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
-    <div class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4">
-      <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center py-4">Hello 🌎, I'm Emi!</h2>
+    <div class="relative aspect-[4/3]">
+      <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
+    </div>
 
-<pre class="text-xl xl:text-base text-white py-2 overflow-x-auto rounded-lg">
+    <div class="font-outfit px-4 py-6 space-y-4 text-white">
+      <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
+        Hello 🌎, I'm Emi!
+      </h2>
+
+<pre class="text-xl xl:text-base py-2 overflow-x-auto rounded-lg">
 <code><span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
   aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
-  values: <span class="text-pink-400">["Passion", "Perseverance", "Patience"]</span>
+  values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
 <span class="text-green-400">&#125;</span>;
 </code>
 </pre>
@@ -99,9 +105,15 @@
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center pt-8">About Me</h4>
     <p class="text-xl xl:text-base text-white text-center py-2">
       I am a <u>Senior Computer Science student</u> at <u>California State University, Fullerton!</u><br><br>
-      I currently serve as the <b>President</b> of CSUF's <b>Video Game Development Club (VGDC)</b>, the <b>Co-Team Lead</b> for <b>ACM Node Buds</b>, and <b>Officer</b> for <b>ACM Open Source</b>.  
+      I currently serve as the <b>President</b> of CSUF's 
+      <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
+      the <b>Co-Team Lead</b> for 
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">ACM Node Buds</a>,
+      and <b>Officer</b> for 
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">ACM Open Source.</a>  
       Additionally, I am the <b>Social Media Coordinator</b> for the <b>Engineering & Computer Science Inter-Club Council</b>. <br><br>
-      I also love attending hackathons! My first one was FullyHacks, where I won Best Game Project.  
+      I also love attending hackathons! My first one was 
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">FullyHacks, where I won Best Game Project.</a>  
       I am passionate about game development and building projects that make an impact 💗
     </p>
   </section>
@@ -110,15 +122,23 @@
   <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Projects</h4>
     <p class="text-xl xl:text-base text-white text-center py-2">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      The many games I have made will go here.
     </p>
   </section>
 
 <!-- contact -->
   <section id="contact" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Contact</h4>
+    <p class="text-xl xl:text-base text-white text-center py-2">
+      Best ways to contact me. Feel free to reach out I would love to connect!
+    </p>
+  </section>
+
+<!-- gallery -->
+  <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
+    <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Gallery</h4>
     <p class="text-xl xl:text-base text-white text-center py-2 pb-20">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      A look into my leadership life + more!
     </p>
   </section>
 
