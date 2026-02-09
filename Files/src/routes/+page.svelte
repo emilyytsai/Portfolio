@@ -80,9 +80,10 @@
     </nav>
 
 <!-- home -->
-  <section id="home" class="mx-auto w-full max-w-xl sm:max-w-2xl px-4 sm:px-0 z-20 rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+  <section id="home" class="mx-auto w-full  max-w-md sm:max-w-xl lg:max-w-2xl px-4 sm:px-0 z-20 rounded-2xl
+                            overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
-    <div class="relative sm:aspect-[4/3]">
+    <div class="relative sm:aspect-[4/3] max-h-[280px] sm:max-h-[360px] lg:max-h-[420px]">
       <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
 
@@ -106,6 +107,7 @@
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center pt-6">About Me</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       I am a <u>Senior Computer Science student</u> at <u>California State University, Fullerton!</u><br><br>
+
       I currently serve as the <b>President</b> of CSUF's 
       <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
       the <b>Co-Team Lead</b> for 
@@ -113,8 +115,9 @@
       and <b>Officer</b> for 
       <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">ACM Open Source.</a>  
       Additionally, I am the <b>Social Media Coordinator</b> for the <b>Engineering & Computer Science Inter-Club Council</b>. <br><br>
+
       I also love attending hackathons! My first one was 
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">FullyHacks, where I won Best Game Project.</a>  
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">FullyHacks 2025, where I won Best Game Project.</a>  
       I am passionate about game development and building projects that make an impact 💗
     </p>
   </section>
@@ -123,7 +126,27 @@
   <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Projects</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
-      The many games I have made will go here.
+      <u>Oddinary Farm</u><br>
+      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+      Engineered UI animation classes and oversaw development workflows and creative direction.<br><br>
+
+      <u>Evocation</u><br>
+      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+      Developed player input mechanics and UI elements and menus.<br><br>
+
+      <u>Country Life Cafe</u><br>
+      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+      Led a team of developers, created main gameplay loops, UI systems, implemented procederal 
+      difficulty scaling, and managed asset creation and integration.<br><br>
+
+      <u>Out of This World Cafe</u><br>
+      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+      Team leader during CSU Fullerton’s FullyHacks 2025 where I guided the development process across UI/UX, 
+      animations, and game mechanics, and engineered gameplay systems.<br><br>
+
+      <u>Wave Rave</u><br>
+      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+      Implemented UI elements and menus, and developed enemy spawning system.
     </p>
   </section>
 
@@ -138,7 +161,7 @@
 <!-- gallery -->
   <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Gallery</h4>
-    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
+    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2 pb-20">
       A look into my leadership life + more!
     </p>
   </section>
