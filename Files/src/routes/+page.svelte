@@ -14,14 +14,16 @@
 <svelte:head>
   <title>Emily Tsai · Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+  
 </svelte:head>
 
 <!-- intro screen-->
 {#if showIntro}
   <section
     class="fixed inset-0 bg-zinc-950 flex items-center justify-center z-50"
-    out:slide={{ duration: 700 }}
+    out:slide={{ duration: 800 }}
   >
 
   <!-- animate.css -->
@@ -78,32 +80,31 @@
     </nav>
 
 <!-- home -->
-  <section id="home" class="mx-auto max-w-xl z-20 rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+  <section id="home" class="mx-auto w-full max-w-xl sm:max-w-2xl px-4 sm:px-0 z-20 rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
-    <div class="relative aspect-[4/3]">
+    <div class="relative sm:aspect-[4/3]">
       <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
 
-    <div class="font-outfit px-4 py-6 space-y-4 text-white">
+    <div class="font-outfit px-4 pt-6 space-y-8 text-white">
       <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
         Hello 🌎, I'm Emi!
       </h2>
 
-<pre class="text-xl xl:text-base py-2 overflow-x-auto rounded-lg">
-<code><span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
-  aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
-  values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
-<span class="text-green-400">&#125;</span>;
-</code>
-</pre>
+    <pre class="text-sm sm:text-base lg:text-lg pb-2 overflow-x-auto rounded-lg">
+    <code><span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
+      aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
+      values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
+    <span class="text-green-400">&#125;</span>;</code>
+    </pre>
 
     </div>
   </section>
 
 <!-- about -->
   <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
-    <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center pt-8">About Me</h4>
-    <p class="text-xl xl:text-base text-white text-center py-2">
+    <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center pt-6">About Me</h4>
+    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       I am a <u>Senior Computer Science student</u> at <u>California State University, Fullerton!</u><br><br>
       I currently serve as the <b>President</b> of CSUF's 
       <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
@@ -121,7 +122,7 @@
 <!-- projects -->
   <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Projects</h4>
-    <p class="text-xl xl:text-base text-white text-center py-2">
+    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       The many games I have made will go here.
     </p>
   </section>
@@ -129,7 +130,7 @@
 <!-- contact -->
   <section id="contact" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Contact</h4>
-    <p class="text-xl xl:text-base text-white text-center py-2">
+    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       Best ways to contact me. Feel free to reach out I would love to connect!
     </p>
   </section>
@@ -137,7 +138,7 @@
 <!-- gallery -->
   <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
     <h4 class="text-4xl sm:text-5xl md:text-6xl font-bold text-white text-center">Gallery</h4>
-    <p class="text-xl xl:text-base text-white text-center py-2 pb-20">
+    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       A look into my leadership life + more!
     </p>
   </section>
