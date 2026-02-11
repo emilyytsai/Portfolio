@@ -65,7 +65,7 @@
       />
     </div>
 
-    <!-- navbar -->
+<!-- navbar -->
     <nav class="fixed top-0 left-0 w-full bg-white/10 backdrop-blur-md z-30">
       <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div class="font-outfit text-3xl font-semibold">Emily Tsai</div>
@@ -83,7 +83,7 @@
   <section id="home" class="mx-auto w-full  max-w-sm sm:max-w-md lg:max-w-lg px-4 sm:px-0 z-20 rounded-2xl
                             overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
-    <div class="relative sm:aspect-[4/3] h-[280px] sm:h-[360px] lg:h-[420px]">
+    <div class="relative sm:aspect-[4/3] h-[340px] sm:h-[360px] lg:h-[420px]">
       <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
 
@@ -92,11 +92,11 @@
         Hello 🌎, I'm Emi!
       </h2>
 
-  <pre class="text-[0.67rem] sm:text-[0.77rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
-  <code><span class="text-blue-400">const</span> emi = <span class="text-green-400">&#123;</span>
+  <pre class="text-[0.64rem] sm:text-[0.78rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
+<code><span class="text-blue-400">  const</span> emi = <span class="text-green-400">&#123;</span>
     aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
     values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
-  <span class="text-green-400">&#125;</span>;</code>
+<span class="text-green-400">   &#125;</span>;</code>
   </pre>
 
     </div>
@@ -163,39 +163,39 @@
       Best ways to contact me. Feel free to reach out I would love to connect!
     </p>
 
-      <div class= "flex justify-center gap-6 z-20">
+      <div class= "flex justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[40px] sm:h-[50px] lg:h-[75px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/20 p-4 rounded-2x1 shadow-2xl hover:border-red-300/60 transition">
-          <img src="/email.png" alt="email" class="absolute inset-0 w-full h-full object-cover"/>
+        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+          <img src="/email.png" alt="email" class="w-full h-full object-cover"/>
         </div>
       </a>
 
       <a href="https://www.linkedin.com/in/emi-tsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[40px] sm:h-[50px] lg:h-[75px] w-auto 
-                    bg-white/5 backdrop-blur-md border border-white/20 p-4 rounded-2x1 shadow-2xl hover:border-red-300/60 transition">
-          <img src="/linkedin.png" alt="linkedin" class="absolute inset-0 w-full h-full object-cover"/>
+        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto 
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+          <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-cover"/>
         </div>
       </a>
 
       <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[40px] sm:h-[50px] lg:h-[75px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/20 p-4 rounded-2x1 shadow-2xl hover:border-red-300/60 transition">
-          <img src="/github.png" alt="linkedin" class="absolute inset-0 w-full h-full object-cover"/>
+        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+          <img src="/github.png" alt="linkedin" class="w-full h-full object-cover"/>
         </div>
       </a>
 
       <a href="https://www.instagram.com/emilyytsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[40px] sm:h-[50px] lg:h-[75px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/20 p-4 rounded-2x1 shadow-2xl hover:border-red-300/60 transition">
-          <img src="/instagram.png" alt="linkedin" class="absolute inset-0 w-full h-full object-cover"/>
+        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+          <img src="/instagram.png" alt="linkedin" class="w-full h-full object-cover"/>
         </div>
       </a>
 
       <a href="https://discord.com/users/beeemi" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[40px] sm:h-[50px] lg:h-[75px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/20 p-4 rounded-2x1 shadow-2xl hover:border-red-300/60 transition">
-          <img src="/discord.png" alt="discord" class="absolute inset-0 w-full h-full object-cover"/>
+        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+          <img src="/discord.png" alt="discord" class="w-full h-full object-cover"/>
         </div>
       </a>
     </div>
