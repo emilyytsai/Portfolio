@@ -80,19 +80,19 @@
     </nav>
 
 <!-- home -->
-  <section id="home" class="mx-auto w-full  max-w-sm sm:max-w-md lg:max-w-lg px-4 sm:px-0 z-20 rounded-2xl
+  <section id="home" class="mx-auto w-full max-w-full sm:max-w-md lg:max-w-lg px-0 sm:px-0 sm:px-0 z-20 rounded-2xl
                             overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
-    <div class="relative sm:aspect-[4/3] h-[340px] sm:h-[360px] lg:h-[420px]">
+    <div class="relative aspect-[4/3] sm:h-[360px] lg:h-[420px]">
       <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
 
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
-      <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
+      <h2 class="text-4xl md:text-5xl font-bold text-center">
         Hello 🌎, I'm Emi!
       </h2>
 
-  <pre class="text-[0.64rem] sm:text-[0.78rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
+  <pre class="text-[0.9rem] sm:text-[0.82rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
 <code><span class="text-blue-400">  const</span> emi = <span class="text-green-400">&#123;</span>
     aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
     values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
@@ -103,7 +103,7 @@
   </section>
 
 <!-- about -->
-  <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
+  <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center pt-6">About Me</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       I am a <u>Senior Computer Science student</u> at <u>California State University, Fullerton!</u><br><br>
@@ -123,7 +123,7 @@
   </section>
 
 <!-- projects -->
-  <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
+  <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Projects</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       <u>Oddinary Farm</u><br>
@@ -156,53 +156,60 @@
   </section>
 
 <!-- contact -->
-  <section id="contact" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
+  <section id="contact" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Contact</h4>
 
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
-      Best ways to contact me. Feel free to reach out I would love to connect!
+      Feel free to reach out I would love to connect!
     </p>
 
       <div class= "flex justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
+        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
-          <img src="/email.png" alt="email" class="w-full h-full object-cover"/>
+          <img src="/email.png" alt="email" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.linkedin.com/in/emi-tsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto 
+        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto 
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
-          <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-cover"/>
-        </div>
-      </a>
-
-      <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
-          <img src="/github.png" alt="linkedin" class="w-full h-full object-cover"/>
+          <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.instagram.com/emilyytsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
+        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
-          <img src="/instagram.png" alt="linkedin" class="w-full h-full object-cover"/>
+          <img src="/instagram.png" alt="instagram" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://discord.com/users/beeemi" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[55px] sm:h-[65px] lg:h-[80px] w-auto
+        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
-          <img src="/discord.png" alt="discord" class="w-full h-full object-cover"/>
+          <img src="/discord.png" alt="discord" class="w-full h-full object-contain"/>
+        </div>
+      </a>
+
+      <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
+        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+          <img src="/github.png" alt="github" class="w-full h-full object-contain"/>
+        </div>
+      </a>
+
+      <a href="https://open.spotify.com/user/emilyishkewl?si=9ac8e340b3d04ba2" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
+        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+          <img src="/spotify.png" alt="spotify" class="w-full h-full object-contain"/>
         </div>
       </a>
     </div>
   </section>
 
 <!-- gallery -->
-  <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-5">
+  <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Gallery</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2 pb-20">
       A look into my leadership life + more!
