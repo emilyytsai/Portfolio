@@ -163,7 +163,7 @@
       Feel free to reach out I would love to connect!
     </p>
 
-      <div class= "flex justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
+      <div class= "flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
@@ -317,3 +317,9 @@
 
   </main>
 {/if}
+
+<style>
+  :global(html, body) {
+    overflow-x: hidden;
+  }
+</style>
