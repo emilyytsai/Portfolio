@@ -92,7 +92,7 @@
         Hello 🌎, I'm Emi!
       </h2>
 
-  <pre class="text-[0.9rem] sm:text-[0.82rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
+  <pre class="text-[0.85rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
 <code><span class="text-blue-400">  const</span> emi = <span class="text-green-400">&#123;</span>
     aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
     values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
@@ -165,42 +165,42 @@
 
       <div class= "flex justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
+        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/email.png" alt="email" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.linkedin.com/in/emi-tsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto 
+        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto 
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.instagram.com/emilyytsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
+        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/instagram.png" alt="instagram" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://discord.com/users/beeemi" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
+        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/discord.png" alt="discord" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
+        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/github.png" alt="github" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://open.spotify.com/user/emilyishkewl?si=9ac8e340b3d04ba2" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative sm:aspect-[1/1] h-[70px] sm:h-[75px] lg:h-[85px] w-auto
+        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/spotify.png" alt="spotify" class="w-full h-full object-contain"/>
         </div>
@@ -209,11 +209,110 @@
   </section>
 
 <!-- gallery -->
-  <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
-    <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Gallery</h4>
-    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2 pb-20">
+  <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5 pb-20">
+    <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center"><br>Gallery</h4>
+    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       A look into my leadership life + more!
     </p>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 sm:gap-3 lg:gap-4 mx-auto">
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/22.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/21.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/20.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/19.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/18.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/17.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/16.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/15.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/14.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/13.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/12.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/11.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/10.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/9.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/8.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/7.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+      
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/6.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/5.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/4.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/3.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/2.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/1.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+    </div>
   </section>
 
   </main>
