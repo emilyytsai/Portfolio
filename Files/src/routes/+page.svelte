@@ -1,7 +1,6 @@
 <script lang="ts">
   import { slide } from 'svelte/transition';
   import Aurora from '$lib/aurora.svelte';
-  import Galaxy from '$lib/galaxy.svelte';
 
   let showIntro = true;
 
@@ -27,11 +26,13 @@
   >
 
   <!-- animate.css -->
-      <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand">
-        Emily Tsai
-      </h1>
+    <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand">
+      Emily Tsai
+    </h1>
 
-    <div class="absolute inset-0 z-0">
+    <div class="fixed inset-0 z-0 pointer-events-none grid-bg"></div>
+
+    <div class="absolute inset-0 z-10">
     <Aurora
       colorStops={['#DE4F33', '#2A5057', '#30011D']}
       amplitude={2}
@@ -40,28 +41,23 @@
     />
     </div>
 
+    
+
   </section>
 {/if}
 
 <!-- portfolio -->
 {#if !showIntro}
   <main class="relative min-h-screen bg-zinc-900 text-white pt-28 flex flex-col items-center">
-    <div class="fixed inset-0 z-0">
+  
+    <div class="fixed inset-0 z-0 pointer-events-none grid-bg"></div>
+
+    <div class="fixed inset-0 z-10">
       <Aurora
         colorStops={['#DE4F33', '#2A5057', '#30011D']}
         amplitude={2}
         blend={2}
         speed={0.1}
-      />
-    </div>
-    <div class="fixed inset-0 z-10">
-      <Galaxy
-        focal={[0.5, 0.5]}
-        starSpeed={0.5}
-        density={1.2}
-        glowIntensity={0.55}
-        transparent={true}
-        mouseInteraction={true}
       />
     </div>
 
@@ -322,4 +318,15 @@
   :global(html, body) {
     overflow-x: hidden;
   }
+
+  .grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.2) 1px, transparent 1px);
+
+  background-size: 40px 40px;
+
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+
 </style>
