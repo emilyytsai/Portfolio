@@ -92,7 +92,7 @@
         Hello 🌎, I'm Emi!
       </h2>
 
-  <pre class="text-[0.85rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
+  <pre class="text-[0.80rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
 <code><span class="text-blue-400">  const</span> emi = <span class="text-green-400">&#123;</span>
     aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
     values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
@@ -165,42 +165,42 @@
 
       <div class= "flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
-        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
+        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/email.png" alt="email" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.linkedin.com/in/emi-tsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto 
+        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto 
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.instagram.com/emilyytsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
+        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/instagram.png" alt="instagram" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://discord.com/users/beeemi" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
+        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/discord.png" alt="discord" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
+        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/github.png" alt="github" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://open.spotify.com/user/emilyishkewl?si=9ac8e340b3d04ba2" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
-        <div class="relative aspect-[1/1] h-[70px] sm:h-[80px] lg:h-[90px] w-auto
+        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
           <img src="/spotify.png" alt="spotify" class="w-full h-full object-contain"/>
         </div>
