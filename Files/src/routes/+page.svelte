@@ -26,7 +26,7 @@
   >
 
   <!-- animate.css -->
-    <h1 class="font-outfit text-6xl font-medium text-white relative z-10 animate__animated animate__rubberBand">
+    <h1 class="font-outfit text-6xl font-medium text-white relative z-20 animate__animated animate__rubberBand">
       Emily Tsai
     </h1>
 
@@ -34,9 +34,9 @@
 
     <div class="absolute inset-0 z-10">
     <Aurora
-      colorStops={['#DE4F33', '#2A5057', '#30011D']}
+      colorStops={['#785420', '#A2A5A8', '#30011D']}
       amplitude={2}
-      blend={2}
+      blend={10}
       speed={0.1}
     />
     </div>
@@ -54,9 +54,9 @@
 
     <div class="fixed inset-0 z-10">
       <Aurora
-        colorStops={['#DE4F33', '#2A5057', '#30011D']}
+        colorStops={['#785420', '#A2A5A8', '#30011D']}
         amplitude={2}
-        blend={2}
+        blend={10}
         speed={0.1}
       />
     </div>
@@ -66,11 +66,11 @@
       <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div class="font-outfit text-3xl font-semibold">Emily Tsai</div>
         <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
-          <li><a href="#home" class="hover:text-teal-100 transition">Home</a></li>
-          <li><a href="#about" class="hover:text-sky-200 transition">About Me</a></li>
-          <li><a href="#projects" class="hover:text-blue-200 transition">Projects</a></li>
-          <li><a href="#contact" class="hover:text-purple-200 transition">Contact</a></li>
-          <li><a href="#gallery" class="hover:text-pink-200 transition">Gallery</a></li>
+          <li><a href="#home" class="hover:text-yellow-400 transition">Home</a></li>
+          <li><a href="#about" class="hover:text-yellow-400 transition">About Me</a></li>
+          <li><a href="#projects" class="hover:text-yellow-400 transition">Projects</a></li>
+          <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
+          <li><a href="#gallery" class="hover:text-yellow-400 transition">Gallery</a></li>
         </ul>
       </div>
     </nav>
@@ -105,50 +105,104 @@
       I am a <u>Senior Computer Science student</u> at <u>California State University, Fullerton!</u><br><br>
 
       I currently serve as the <b>President</b> of CSUF's 
-      <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
+      <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
       the <b>Co-Team Lead</b> for 
-      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">ACM Node Buds</a>,
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">ACM Node Buds</a>,
       and <b>Officer</b> for 
-      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">ACM Open Source.</a>  
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">ACM Open Source.</a>  
       Additionally, I am the <b>Social Media Coordinator</b> for the <b>Engineering & Computer Science Inter-Club Council</b>. <br><br>
 
       I also love attending hackathons! My first one was 
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #ffbea8;" class="hover:underline font-bold">FullyHacks 2025, where I won Best Game Project.</a>  
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">FullyHacks 2025, where I won Best Game Project.</a>  
       I am passionate about game development and building projects that make an impact 💗
     </p>
   </section>
 
 <!-- projects -->
   <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
-    <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Projects</h4>
-    <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
-      <u>Oddinary Farm</u><br>
-      <a href="https://store.steampowered.com/app/3848990/Oddinary_Farm/" target="_blank" rel="noopener noreferrer" style="color: #9CE2FF;" class="hover:underline font-bold">Playtest out on Steam!</a><br>
-      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
-      Engineered UI animation classes and oversaw development workflows and creative direction.<br><br>
+    <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center pb-6">Projects</h4>
 
-      <u>Evocation</u><br>
-      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
-      Developed player input mechanics and UI elements and menus.<br>
-      <a href="https://github.com/JesDaw/Evocation" target="_blank" rel="noopener noreferrer" style="color: #85969E;" class="hover:underline font-bold">GitHub Repo</a><br><br>
+    <div class="space-y-1">
+      <div class="grid grid-cols-2 gap-2 mx-auto">
+        <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[180px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+          <img src="/game-4.png" alt="image" class="w-full h-full object-cover"/>
+        </div>
+      <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[180px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+          <img src="/game-5.png" alt="image" class="w-full h-full object-cover"/>
+        </div>
+      </div>
+      <p class="text-base sm:text-lg lg:text-xl text-white text-center py-0">
+        <u>Oddinary Farm</u><br>
+        <a href="https://store.steampowered.com/app/3848990/Oddinary_Farm/" target="_blank" rel="noopener noreferrer" style="color: #9CE2FF;" class="hover:underline font-bold">Playtest out on Steam!</a><br>
+        <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+        Engineered UI animation classes and oversaw development workflows and creative direction.<br><br>
+      </p>
+    </div>
 
-      <u>Country Life Cafe</u><br>
-      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
-      Led a team of developers, created main gameplay loops, UI systems, implemented procederal 
-      difficulty scaling, and managed asset creation and integration.<br>
-      <a href="https://github.com/emilyytsai/CountryLifeCafe" target="_blank" rel="noopener noreferrer" style="color: #85969E;" class="hover:underline font-bold">GitHub Repo</a><br><br>
 
-      <u>Out of This World Cafe</u><br>
-      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
-      Team leader during CSU Fullerton’s FullyHacks 2025 where I guided the development process across UI/UX, 
-      animations, and game mechanics, and engineered gameplay systems.<br>
-      <a href="https://github.com/emilyytsai/OutOfThisWorldCafe" target="_blank" rel="noopener noreferrer" style="color: #85969E;" class="hover:underline font-bold">GitHub Repo</a><br><br>
+    <div class="space-y-1">
+      <div class="grid grid-cols-1 mx-auto max-w-xl justify-items-center">
+        <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[180px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+          <img src="/game-7.png" alt="image" class="w-full h-full object-cover"/>
+        </div>
+      </div>
+      <p class="text-base sm:text-lg lg:text-xl text-white text-center py-0">
+        <u>Evocation</u><br>
+        <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+        Developed player input mechanics and UI elements and menus.<br>
+        <a href="https://github.com/JesDaw/Evocation" target="_blank" rel="noopener noreferrer" style="color: #85969E;" class="hover:underline font-bold">GitHub Repo</a><br><br>
+      </p>
+    </div>
 
-      <u>Wave Rave</u><br>
-      <a href="https://pomjellies.itch.io/wave-rave" target="_blank" rel="noopener noreferrer" style="color: #9CE2FF;" class="hover:underline font-bold">Check out on itch.io!</a><br>
-      <i>Unity, GitHub, C#, Visual Studio Code</i><br>
-      Implemented UI elements and menus, and developed enemy spawning system.
-    </p>
+
+    <div class="space-y-1">
+      <div class="grid grid-cols-2 gap-2 mx-auto">
+        <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[180px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+          <img src="/game-2.png" alt="image" class="w-full h-full object-cover"/>
+        </div>
+      <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[180px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+          <img src="/game-3.png" alt="image" class="w-full h-full object-cover"/>
+        </div>
+      </div>
+      <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
+        <u>Country Life Cafe</u><br>
+        <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+        Led a team of developers, created main gameplay loops, UI systems, implemented procederal 
+        difficulty scaling, and managed asset creation and integration.<br>
+        <a href="https://github.com/emilyytsai/CountryLifeCafe" target="_blank" rel="noopener noreferrer" style="color: #85969E;" class="hover:underline font-bold">GitHub Repo</a><br><br>
+      </p>
+    </div>
+
+
+    <div class="space-y-1">
+      <div class="grid grid-cols-1 mx-auto max-w-xl justify-items-center">
+        <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[180px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+          <img src="/game-1.png" alt="image" class="w-full h-full object-cover"/>
+        </div>
+      </div>
+      <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
+        <u>Out of This World Cafe</u><br>
+        <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+        Team leader during CSU Fullerton’s FullyHacks 2025 where I guided the development process across UI/UX, 
+        animations, and game mechanics, and engineered gameplay systems.<br>
+        <a href="https://github.com/emilyytsai/OutOfThisWorldCafe" target="_blank" rel="noopener noreferrer" style="color: #85969E;" class="hover:underline font-bold">GitHub Repo</a><br><br>
+      </p>
+    </div>
+
+
+    <div class="space-y-1">
+      <div class="grid grid-cols-1 mx-auto max-w-xl justify-items-center">
+        <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[180px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+          <img src="/game-6.png" alt="image" class="w-full h-full object-cover"/>
+        </div>
+      </div>
+      <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
+        <u>Wave Rave</u><br>
+        <a href="https://pomjellies.itch.io/wave-rave" target="_blank" rel="noopener noreferrer" style="color: #9CE2FF;" class="hover:underline font-bold">Check out on itch.io!</a><br>
+        <i>Unity, GitHub, C#, Visual Studio Code</i><br>
+        Implemented UI elements and menus, and developed enemy spawning system.
+      </p>
+    </div>
   </section>
 
 <!-- contact -->
@@ -162,42 +216,42 @@
       <div class= "flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
           <img src="/email.png" alt="email" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.linkedin.com/in/emi-tsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto 
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
           <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.instagram.com/emilyytsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
           <img src="/instagram.png" alt="instagram" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://discord.com/users/beeemi" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
           <img src="/discord.png" alt="discord" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
           <img src="/github.png" alt="github" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://open.spotify.com/user/emilyishkewl?si=9ac8e340b3d04ba2" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-fuchsia-300/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
           <img src="/spotify.png" alt="spotify" class="w-full h-full object-contain"/>
         </div>
       </a>
