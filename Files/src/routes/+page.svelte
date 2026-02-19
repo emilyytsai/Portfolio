@@ -26,7 +26,7 @@
 <!-- intro screen-->
 {#if showIntro}
   <section
-    class="fixed inset-0 bg-zinc-950 flex items-center justify-center z-50"
+    class="fixed inset-0 bg-zinc-900 flex items-center justify-center z-50"
     out:slide={{ duration: 750 }}
   >
 
@@ -39,7 +39,7 @@
 
     <div class="absolute inset-0 z-10">
     <Aurora
-      colorStops={['#785420', '#A2A5A8', '#30011D']}
+      colorStops={['#E64561', '#A2A5A8', '#30011D']}
       amplitude={2}
       blend={10}
       speed={0.1}
@@ -59,7 +59,7 @@
 
     <div class="fixed inset-0 z-10">
       <Aurora
-        colorStops={['#785420', '#A2A5A8', '#30011D']}
+        colorStops={['#E64561', '#A2A5A8', '#30011D']}
         amplitude={2}
         blend={10}
         speed={0.1}
@@ -71,11 +71,11 @@
       <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div class="font-outfit text-3xl font-semibold">Emily Tsai</div>
         <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
-          <li><a href="#home" class="hover:text-yellow-400 transition">Home</a></li>
-          <li><a href="#about" class="hover:text-yellow-400 transition">About Me</a></li>
-          <li><a href="#projects" class="hover:text-yellow-400 transition">Projects</a></li>
-          <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
-          <li><a href="#gallery" class="hover:text-yellow-400 transition">Gallery</a></li>
+          <li><a href="#home" class="hover:text-[#F095BE] transition">Home</a></li>
+          <li><a href="#about" class="hover:text-[#F095BE] transition">About Me</a></li>
+          <li><a href="#projects" class="hover:text-[#F095BE] transition">Projects</a></li>
+          <li><a href="#contact" class="hover:text-[#F095BE] transition">Contact</a></li>
+          <li><a href="#gallery" class="hover:text-[#F095BE] transition">Gallery</a></li>
         </ul>
 
 <!-- side menu button (mobile) -->
@@ -104,11 +104,11 @@
     in:slide={{ duration: 200 }}
     out:slide={{ duration: 200 }}
   >
-    <a href="#home" on:click={toggleMenu} class="hover:text-yellow-400 transition">Home</a>
-    <a href="#about" on:click={toggleMenu} class="hover:text-yellow-400 transition">About Me</a>
-    <a href="#projects" on:click={toggleMenu} class="hover:text-yellow-400 transition">Projects</a>
-    <a href="#contact" on:click={toggleMenu} class="hover:text-yellow-400 transition">Contact</a>
-    <a href="#gallery" on:click={toggleMenu} class="hover:text-yellow-400 transition">Gallery</a>
+    <a href="#home" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Home</a>
+    <a href="#about" on:click={toggleMenu} class="hover:text-[#F095BE] transition">About Me</a>
+    <a href="#projects" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Projects</a>
+    <a href="#contact" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Contact</a>
+    <a href="#gallery" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Gallery</a>
   </div>
 {/if}
   
@@ -117,7 +117,7 @@
                             overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
     <div class="relative aspect-[4/3] sm:h-[360px] lg:h-[420px]">
-      <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
+      <img src="/emi-image2.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
 
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
@@ -126,9 +126,9 @@
       </h2>
 
   <pre class="text-[0.80rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
-<code><span class="text-blue-400">  const</span> emi = <span class="text-green-400">&#123;</span>
-    aspirations: <span class="text-yellow-400">["Game Developer", "Software Engineer"]</span>,
-    values: <span class="text-pink-400">["Perseverance", "Passion", "Patience"]</span>
+<code><span class="text-blue-300">  const</span> emi = <span class="text-green-300">&#123;</span>
+    aspirations: <span class="text-yellow-300">["Game Developer", "Software Engineer"]</span>,
+    values: <span class="text-pink-300">["Perseverance", "Passion", "Patience"]</span>
 <span class="text-green-400">   &#125;</span>;</code>
   </pre>
 
@@ -142,15 +142,15 @@
       I am a <u>Senior Computer Science student</u> at <u>California State University, Fullerton!</u><br><br>
 
       I currently serve as the <b>President</b> of CSUF's 
-      <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
+      <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
       the <b>Co-Team Lead</b> for 
-      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">ACM Node Buds</a>,
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">ACM Node Buds</a>,
       and <b>Officer</b> for 
-      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">ACM Open Source.</a>  
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">ACM Open Source.</a>  
       Additionally, I am the <b>Social Media Coordinator</b> for the <b>Engineering & Computer Science Inter-Club Council</b>. <br><br>
 
       I also love attending hackathons! My first one was 
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #60A5FA;" class="hover:underline font-bold">FullyHacks 2025, where I won Best Game Project.</a>  
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">FullyHacks 2025, where I won Best Game Project.</a>  
       I am passionate about game development and building projects that make an impact 💗
     </p>
   </section>
@@ -253,42 +253,42 @@
       <div class= "flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
           <img src="/email.png" alt="email" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.linkedin.com/in/emi-tsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto 
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
           <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.instagram.com/emilyytsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
           <img src="/instagram.png" alt="instagram" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://discord.com/users/beeemi" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
           <img src="/discord.png" alt="discord" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
           <img src="/github.png" alt="github" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://open.spotify.com/user/emilyishkewl?si=9ac8e340b3d04ba2" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-yellow-400/60 transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
           <img src="/spotify.png" alt="spotify" class="w-full h-full object-contain"/>
         </div>
       </a>
