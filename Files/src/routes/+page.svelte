@@ -3,11 +3,16 @@
   import Aurora from '$lib/aurora.svelte';
 
   let showIntro = true;
+  let mobileMenuOpen = false;
 
   setTimeout(() => {
     showIntro = false;
   }, 2000);
   
+  function toggleMenu() {
+  mobileMenuOpen = !mobileMenuOpen;
+  }
+
 </script>
 
 <svelte:head>
@@ -61,7 +66,7 @@
       />
     </div>
 
-<!-- navbar -->
+<!-- navbar (desktop) -->
     <nav class="fixed top-0 left-0 w-full bg-white/10 backdrop-blur-md z-30">
       <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div class="font-outfit text-3xl font-semibold">Emily Tsai</div>
@@ -72,9 +77,41 @@
           <li><a href="#contact" class="hover:text-yellow-400 transition">Contact</a></li>
           <li><a href="#gallery" class="hover:text-yellow-400 transition">Gallery</a></li>
         </ul>
+
+<!-- side menu button (mobile) -->
+      <button
+      class="md:hidden relative w-7 h-7"
+      on:click={toggleMenu}
+      aria-label="Toggle menu"
+      >
+        <span class={`absolute left-0 w-7 h-0.5 bg-white transition-all duration-300
+          ${mobileMenuOpen ? 'rotate-45 top-3' : 'top-1'}`}></span>
+
+        <span class={`absolute left-0 w-7 h-0.5 bg-white transition-all duration-300
+          ${mobileMenuOpen ? 'opacity-0 top-3' : 'top-3'}`}></span>
+
+        <span class={`absolute left-0 w-7 h-0.5 bg-white transition-all duration-300
+          ${mobileMenuOpen ? '-rotate-45 top-3' : 'top-5'}`}></span>
+      </button>
+
       </div>
     </nav>
 
+{#if mobileMenuOpen}
+  <div
+    class="md:hidden fixed top-[72px] left-0 w-full bg-zinc-950/40 backdrop-blur-md z-40 flex flex-col items-center 
+           py-8 space-y-6 text-xl font-outfit rounded-2xl border border-white/15 shadow-2xl"
+    in:slide={{ duration: 200 }}
+    out:slide={{ duration: 200 }}
+  >
+    <a href="#home" on:click={toggleMenu} class="hover:text-yellow-400 transition">Home</a>
+    <a href="#about" on:click={toggleMenu} class="hover:text-yellow-400 transition">About Me</a>
+    <a href="#projects" on:click={toggleMenu} class="hover:text-yellow-400 transition">Projects</a>
+    <a href="#contact" on:click={toggleMenu} class="hover:text-yellow-400 transition">Contact</a>
+    <a href="#gallery" on:click={toggleMenu} class="hover:text-yellow-400 transition">Gallery</a>
+  </div>
+{/if}
+  
 <!-- home -->
   <section id="home" class="mx-auto w-full max-w-full sm:max-w-md lg:max-w-lg px-0 sm:px-0 sm:px-0 z-20 rounded-2xl
                             overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
@@ -266,6 +303,11 @@
     </p>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 sm:gap-3 lg:gap-4 mx-auto">
+      
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/23.png" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/22.png" alt="image" class="w-full h-full object-cover"/>
       </div>
