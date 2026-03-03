@@ -117,7 +117,7 @@
                             overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
     <div class="relative aspect-[4/3] sm:h-[360px] lg:h-[420px]">
-      <img src="/emi-image2.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
+      <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
 
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
@@ -139,20 +139,19 @@
   <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center pt-6">About Me</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
-      I am a <u>Senior Computer Science student</u> at <u>California State University, Fullerton!</u><br><br>
+      I am a <u>Senior Computer Science student</u> @ <u>CSU Fullerton!</u><br><br>
 
       I currently serve as the <b>President</b> of CSUF's 
       <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
       the <b>Co-Team Lead</b> for 
       <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">ACM Node Buds</a>,
       and <b>Officer</b> for 
-      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">ACM Open Source.</a>  
-      Additionally, I am the <b>Social Media Coordinator</b> for the <b>Engineering & Computer Science Inter-Club Council</b>. <br><br>
-
-      I also love attending hackathons! My first one was 
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318121147944841217/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">FullyHacks 2025, where I won Best Game Project.</a>  
-      I am passionate about game development and building projects that make an impact 💗
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">ACM Open Source.</a> 💗
     </p>
+
+    <div class="flex justify-center text-2xl md:text-3xl">
+      <a href="/Emily_Tsai_Resume.pdf" target="_blank" rel="noopener noreferrer" class="button"> Resume </a>
+    </div>
   </section>
 
 <!-- projects -->
@@ -252,7 +251,7 @@
 
       <div class= "flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
-        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
+        <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto 
                     bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
           <img src="/email.png" alt="email" class="w-full h-full object-contain"/>
         </div>
@@ -312,68 +311,69 @@
         <img src="/22.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/21.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/20.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/19.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/18.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/17.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/16.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/15.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/14.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/13.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/12.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/11.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/10.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/9.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/8.png" alt="image" class="w-full h-full object-cover"/>
       </div>
+
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/7.png" alt="image" class="w-full h-full object-cover"/>
@@ -383,23 +383,24 @@
         <img src="/6.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
+
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/5.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/4.png" alt="image" class="w-full h-full object-cover"/>
       </div>
+      
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/3.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/2.png" alt="image" class="w-full h-full object-cover"/>
       </div>
+
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/1.png" alt="image" class="w-full h-full object-cover"/>
@@ -416,13 +417,38 @@
   }
 
   .grid-bg {
-  background-image:
-    linear-gradient(to right, rgba(255,255,255,0.2) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.2) 1px, transparent 1px);
+    background-image:
+      linear-gradient(to right, rgba(255,255,255,0.2) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255,255,255,0.2) 1px, transparent 1px);
 
-  background-size: 40px 40px;
+    background-size: 40px 40px;
 
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    border-radius: 1rem;
+
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    color: white;
+    transition: all 0.3s ease;
+  }
+
+  .button:hover {
+    border-color: #E64561;
+    transform: scale(1.05);
+  }
+
+  .button:active {
+    transform: scale(0.95);
   }
 
 </style>
