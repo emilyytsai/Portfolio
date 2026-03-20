@@ -39,7 +39,7 @@
 
     <div class="absolute inset-0 z-10">
     <Aurora
-      colorStops={['#E64561', '#A2A5A8', '#30011D']}
+      colorStops={['#001675', '#A2A5A8', '#6c80d9']}
       amplitude={2}
       blend={10}
       speed={0.1}
@@ -59,7 +59,7 @@
 
     <div class="fixed inset-0 z-10">
       <Aurora
-        colorStops={['#E64561', '#A2A5A8', '#30011D']}
+        colorStops={['#001675', '#A2A5A8', '#6c80d9']}
         amplitude={2}
         blend={10}
         speed={0.1}
@@ -71,11 +71,11 @@
       <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <div class="font-outfit text-3xl font-semibold">Emily Tsai</div>
         <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
-          <li><a href="#home" class="hover:text-[#F095BE] transition">Home</a></li>
-          <li><a href="#about" class="hover:text-[#F095BE] transition">About Me</a></li>
-          <li><a href="#projects" class="hover:text-[#F095BE] transition">Projects</a></li>
-          <li><a href="#contact" class="hover:text-[#F095BE] transition">Contact</a></li>
-          <li><a href="#gallery" class="hover:text-[#F095BE] transition">Gallery</a></li>
+          <li><a href="#home" class="hover:text-[#98aafa] transition">Home</a></li>
+          <li><a href="#about" class="hover:text-[#98aafa] transition">About Me</a></li>
+          <li><a href="#projects" class="hover:text-[#98aafa] transition">Projects</a></li>
+          <li><a href="#contact" class="hover:text-[#98aafa] transition">Contact</a></li>
+          <li><a href="#gallery" class="hover:text-[#98aafa] transition">Gallery</a></li>
         </ul>
 
 <!-- side menu button (mobile) -->
@@ -104,11 +104,11 @@
     in:slide={{ duration: 200 }}
     out:slide={{ duration: 200 }}
   >
-    <a href="#home" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Home</a>
-    <a href="#about" on:click={toggleMenu} class="hover:text-[#F095BE] transition">About Me</a>
-    <a href="#projects" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Projects</a>
-    <a href="#contact" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Contact</a>
-    <a href="#gallery" on:click={toggleMenu} class="hover:text-[#F095BE] transition">Gallery</a>
+    <a href="#home" on:click={toggleMenu} class="hover:text-[#98aafa] transition">Home</a>
+    <a href="#about" on:click={toggleMenu} class="hover:text-[#98aafa] transition">About Me</a>
+    <a href="#projects" on:click={toggleMenu} class="hover:text-[#98aafa] transition">Projects</a>
+    <a href="#contact" on:click={toggleMenu} class="hover:text-[#98aafa] transition">Contact</a>
+    <a href="#gallery" on:click={toggleMenu} class="hover:text-[#98aafa] transition">Gallery</a>
   </div>
 {/if}
   
@@ -117,7 +117,7 @@
                             overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
     <div class="relative aspect-[4/3] sm:h-[360px] lg:h-[420px]">
-      <img src="/emi-image.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
+      <img src="/emi-image2.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
 
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
@@ -142,11 +142,11 @@
       I am a <u>Senior Computer Science student</u> @ <u>CSU Fullerton!</u><br><br>
 
       I currently serve as the <b>President</b> of CSUF's 
-      <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
+      <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
       the <b>Co-Team Lead</b> for 
-      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">ACM Node Buds</a>,
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">ACM Node Buds</a>,
       and <b>Officer</b> for 
-      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #E64561;" class="hover:underline font-bold">ACM Open Source.</a> 💗
+      <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">ACM Open Source.</a> 💗
     </p>
 
     <div class="flex justify-center text-2xl md:text-3xl">
@@ -252,42 +252,42 @@
       <div class= "flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 z-20">
       <a href="mailto:emilymaytsai@gmail.com" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto 
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#6c80d9] transition">
           <img src="/email.png" alt="email" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.linkedin.com/in/emi-tsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto 
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#6c80d9] transition">
           <img src="/linkedin.png" alt="linkedin" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.instagram.com/emilyytsai/" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#6c80d9] transition">
           <img src="/instagram.png" alt="instagram" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://discord.com/users/beeemi" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#6c80d9] transition">
           <img src="/discord.png" alt="discord" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://www.github.com/emilyytsai" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#6c80d9] transition">
           <img src="/github.png" alt="github" class="w-full h-full object-contain"/>
         </div>
       </a>
 
       <a href="https://open.spotify.com/user/emilyishkewl?si=9ac8e340b3d04ba2" target="_blank" rel="noopener noreferrer" class="transition hover:scale-110">
         <div class="relative aspect-[1/1] h-[75px] sm:h-[80px] lg:h-[90px] w-auto
-                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#E64561] transition">
+                    bg-white/5 backdrop-blur-md border border-white/15 p-3 rounded-2xl shadow-2xl hover:border-[#6c80d9] transition">
           <img src="/spotify.png" alt="spotify" class="w-full h-full object-contain"/>
         </div>
       </a>
@@ -444,18 +444,18 @@
     justify-content: center;
     padding: 0.75rem 2rem;
     font-weight: 600;
-    border-radius: 1rem;
+    border-radius: 1.2rem;
 
     background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.15);
 
     color: white;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
   }
 
   .button:hover {
-    border-color: #E64561;
+    border-color: #6c80d9;
     transform: scale(1.05);
   }
 
