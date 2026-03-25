@@ -139,7 +139,7 @@
   <section id="about" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center pt-6">About Me</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
-      I am a <u>Senior Computer Science student</u> @ <u>CSU Fullerton!</u><br><br>
+      I am a <u>Computer Science Major, with a Minor in Data Science</u> @ <u>CSU Fullerton!</u><br><br>
 
       I currently serve as the <b>President</b> of CSUF's 
       <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
