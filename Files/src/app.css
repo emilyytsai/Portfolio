@@ -1,3 +1,92 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* no horizontal scrolling */
+html, body {
+  overflow-x: hidden;
+}
+
+/* scrolling bar stuff */
+pre {
+  scrollbar-width: thin;
+  scrollbar-color: #3d4a5c #1a2030;
+}
+
+pre::-webkit-scrollbar {
+  height: 6px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #1a2030;
+  border-radius: 99px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  border-radius: 99px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #60a5fa, #a78bfa);
+}
+
+.grid-bg {
+background-image:
+    linear-gradient(to right, rgba(255,255,255,0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.2) 1px, transparent 1px);
+
+background-size: 40px 40px;
+
+mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 0.75rem 2rem;
+font-weight: 600;
+border-radius: 1.2rem;
+
+background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.15);
+
+color: white;
+transition: all 0.1s ease;
+}
+
+.button:hover {
+border-color: #6c80d9;
+transform: scale(1.05);
+}
+
+.button:active {
+transform: scale(0.95);
+}
+
+.stars-bg {
+position: absolute;
+z-index: 15;
+font-family: monospace;
+font-size: 3.5rem;
+line-height: 1.2;
+color: rgba(59, 74, 123, 0.447);
+white-space: pre;
+pointer-events: none;
+user-select: none;
+letter-spacing: 0.05em;
+}
+.stars-bg-main {
+position: fixed;
+z-index: 15;
+font-family: monospace;
+font-size: 3rem;
+line-height: 1.2;
+color: rgba(59, 74, 123, 0.447);
+white-space: pre;
+pointer-events: none;
+user-select: none;
+letter-spacing: 0.05em;
+}
