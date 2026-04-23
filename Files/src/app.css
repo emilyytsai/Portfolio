@@ -66,11 +66,12 @@ transform: scale(1.05);
 transform: scale(0.95);
 }
 
+/* stars ascii background */
 .stars-bg {
 position: absolute;
 z-index: 15;
 font-family: monospace;
-font-size: 1.4rem;
+font-size: 2.75rem;
 line-height: 1.2;
 color: rgba(59, 74, 123, 0.6);
 white-space: pre;
@@ -89,4 +90,35 @@ white-space: pre;
 pointer-events: none;
 user-select: none;
 letter-spacing: 0.05em;
+}
+
+/* shimmer gradient effect for my name on navbar */
+.shimmer {
+  background: linear-gradient(90deg, #f1fff1 0%, #c7d2ff 40%, #f3ecff 60%, #fff 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
+@keyframes shimmer { to { background-position: 200% center; } }
+
+.shimmer:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+
+.underline-center {
+  position: relative;
+}
+.underline-center::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%; right: 50%;
+  height: 2px;
+  background: linear-gradient(90deg, #f1fff1 0%, #c7d2ff 40%, #f3ecff 60%, #fff 100%);
+  transition: left 0.3s ease, right 0.3s ease;
+}
+.underline-center:hover::after {
+  left: 0; right: 0;
 }
