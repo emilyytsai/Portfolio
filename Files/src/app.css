@@ -73,7 +73,7 @@ z-index: 15;
 font-family: monospace;
 font-size: 2.75rem;
 line-height: 1.2;
-color: rgba(59, 74, 123, 0.6);
+color: rgba(59, 74, 123, 0.447);
 white-space: pre;
 pointer-events: none;
 user-select: none;
@@ -90,6 +90,14 @@ white-space: pre;
 pointer-events: none;
 user-select: none;
 letter-spacing: 0.05em;
+}
+
+/* smaller stars in mobile view */
+@media (max-width: 767px) {
+  .stars-bg,
+  .stars-bg-main {
+    font-size: 1.1rem;
+  }
 }
 
 /* shimmer gradient effect for my name on navbar */
