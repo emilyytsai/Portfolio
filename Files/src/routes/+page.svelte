@@ -123,11 +123,11 @@
         </a>
 
         <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
-          <li><a href="#home" class="hover:text-[#98aafa] transition">Home</a></li>
-          <li><a href="#about" class="hover:text-[#98aafa] transition">About Me</a></li>
-          <li><a href="#projects" class="hover:text-[#98aafa] transition">Projects</a></li>
-          <li><a href="#contact" class="hover:text-[#98aafa] transition">Contact</a></li>
-          <li><a href="#gallery" class="hover:text-[#98aafa] transition">Gallery</a></li>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
         </ul>
 
 <!-- side menu button (mobile) -->
