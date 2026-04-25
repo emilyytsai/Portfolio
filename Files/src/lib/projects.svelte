@@ -32,8 +32,8 @@
       </p>
     </div>
 
-
-    <div class="space-y-1">
+<!-- temp remove this proj-->
+    <!--<div class="space-y-1">
       <div class="grid grid-cols-1 mx-auto max-w-xl justify-items-center">
         <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[370px] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
           <img src="/game-7.png" alt="image" class="w-full h-full object-cover"/>
@@ -45,7 +45,7 @@
         Developed player input mechanics and UI elements and menus.<br>
         <a href="https://github.com/JesDaw/Evocation" target="_blank" rel="noopener noreferrer" style="color: #85969E;" class="hover:underline font-bold">→ GitHub Repo</a><br><br>
       </p>
-    </div>
+    </div>-->
 
 
     <div class="space-y-1">
