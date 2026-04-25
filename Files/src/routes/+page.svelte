@@ -197,5 +197,11 @@
 
 <!-- gallery -->
     <Gallery />
+
+<!-- footer -->
+    <footer class="font-outfit relative z-20 text-center text-white/50 text-sm py-6">
+      <p>© 2026 Emily Tsai</p>
+    </footer>
+
   </main>
 {/if}
