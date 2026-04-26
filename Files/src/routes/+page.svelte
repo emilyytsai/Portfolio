@@ -88,8 +88,10 @@
 {/if}
 
 <!-- portfolio -->
-{#if !showIntro}
-  <main class="relative min-h-screen bg-zinc-900 text-white flex flex-col items-center">
+<main
+  class="relative min-h-screen bg-zinc-900 text-white flex flex-col items-center"
+  class:invisible={showIntro}
+>
   <!-- stars bg main -->
     <pre class="stars-bg-main">
                         ⠀⠀⠀⠀⠀⠀⠀⣀⡄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀      ⠀⠀       ⠀⠀⡀⠀⡀⡀⠂⠂⠈⠀⡐⠁⠀⠈ ⡐ ⠀
@@ -218,4 +220,3 @@
     </footer>
 
   </main>
-{/if}
