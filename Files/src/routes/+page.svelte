@@ -190,7 +190,7 @@
 
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
     <h2 class="text-4xl md:text-5xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
-      <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="45" height="45" alt="spinning globe" class="inline-block align-middle"/>, I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span>
+      <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="45" height="45" alt="spinning globe" class="inline-block align-middle"/>,  I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span>
     </h2>
 
   <pre class="text-[0.80rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
