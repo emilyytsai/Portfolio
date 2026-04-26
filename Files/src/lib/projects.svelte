@@ -1,6 +1,6 @@
 <!-- projects -->
 <section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4 sm:space-y-6">
-  <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center pb-6">Projects</h4>
+  <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Projects</h4>
 
   <div class="project-card">
     <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[370px] overflow-hidden">
