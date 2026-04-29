@@ -1,5 +1,5 @@
 <!-- gallery -->
-  <section id="gallery" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5 pb-20">
+  <section id="gallery" class="fade-in font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5 pb-20">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center"><br>Gallery</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       A look into my leadership life + more!

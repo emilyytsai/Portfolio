@@ -13,6 +13,18 @@ pre {
   scrollbar-color: #3d4a5c #1a2030;
 }
 
+/* scrolling fade */
+.fade-in {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 pre::-webkit-scrollbar {
   height: 6px;
 }
