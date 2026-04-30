@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { slide } from 'svelte/transition';
+  import { fade } from 'svelte/transition';
   import Aurora from '$lib/aurora.svelte';
   import About from '$lib/about.svelte';
   import Projects from '$lib/projects.svelte';
@@ -32,7 +33,7 @@
       { threshold: 0.03, rootMargin: '0px 0px -15px 0px' }
     );
 
-    document.querySelectorAll('.fade-in, .fade-in-x').forEach((el) => observer.observe(el));
+    document.querySelectorAll('.fade-in, .fade-in-x, .fade-in2').forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   });
 </script>
@@ -48,8 +49,8 @@
 <!-- intro screen-->
 {#if showIntro}
   <section
-    class="fixed inset-0 bg-zinc-900 flex items-center justify-center z-50"
-    out:slide={{ duration: 750 }}
+    class="fixed inset-0 bg-zinc-900 flex items-center justify-center z-50 overflow-hidden"
+    out:fade={{ duration: 500 }}
   >
 
 <!-- stars bg -->
@@ -86,7 +87,7 @@
 </pre>
 
   <!-- animate.css -->
-    <h1 class="font-outfit text-6xl font-medium text-white relative z-20 animate__animated animate__rubberBand">
+    <h1 class="font-outfit text-6xl font-medium text-white relative z-20 animate__animated animate__backInDown">
       Emily Tsai
     </h1>
 
@@ -100,8 +101,6 @@
       speed={0.1}
     />
     </div>-->
-
-    
 
   </section>
 {/if}
@@ -150,21 +149,19 @@
     </div>
 
 <!-- navbar (desktop) -->
-    <nav class="fixed top-0 left-0 w-full bg-white/10 border border-white/5 backdrop-blur-md z-30">
-      <div class="max-w-6xl mx-auto px-3 py-3 flex justify-between items-center">
-        <a href="#home" class="flex items-center">
-          <div class="shimmer underline-center font-outfit text-3xl font-semibold" data-text="Emily Tsai">
-            Emily Tsai
-          </div>
-        </a>
-
-        <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
-          <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#about" class="nav-link">About Me</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-          <li><a href="#gallery" class="nav-link">Gallery</a></li>
-        </ul>
+  <nav class="fixed top-0 left-0 w-full bg-white/10 border border-white/5 backdrop-blur-md z-30">
+    <div class="max-w-6xl mx-auto px-3 py-3 flex justify-between items-center">
+      <a href="#home" class="flex items-center">
+        <div class="shimmer underline-center font-outfit text-3xl font-semibold" data-text="Emily Tsai">Emily Tsai</div>
+      </a>
+      <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <!-- About Me hidden on desktop since it's inlined in the home section -->
+        <li class="lg:hidden"><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      </ul>
 
 <!-- side menu button (mobile) -->
       <button
@@ -198,32 +195,71 @@
     <a href="#gallery" on:click={toggleMenu} class="hover:text-[#98aafa] transition">Gallery</a>
   </div>
 {/if}
-  
-<!-- home -->
-  <section id="home" class="card mt-28 mx-auto w-full max-w-full sm:max-w-md lg:max-w-lg px-0 sm:px-0 sm:px-0 z-20 rounded-2xl
-                            overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
 
-    <div class="relative aspect-[4/3] sm:h-[360px] lg:h-[420px]">
+<!-- home -->
+  <!-- mobile only has a centered single card -->
+  <section id="home" class="lg:hidden card mt-28 mx-auto w-full max-w-full sm:max-w-md px-0 z-20 rounded-2xl
+                            overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+    <div class="relative aspect-[4/3] sm:h-[360px] overflow-hidden">
       <img src="/emi-image2.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
-
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
-    <h2 class="text-4xl md:text-5xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
-      <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe" class="inline-block align-middle"/>, &thinsp;&hairsp;I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span>
-    </h2>
-
-  <pre class="text-[0.80rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
+      <h2 class="text-4xl md:text-5xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
+        <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe" class="inline-block align-middle"/>, &thinsp;&hairsp;I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span>
+      </h2>
+      <pre class="text-[0.80rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
 <code><span class="text-blue-300">  const</span> emi = <span class="text-green-300">&#123;</span>
-    aspirations: <span class="text-yellow-300">["UI/UX Designer", "Game Developer", "Software Engineer"]</span>,
+    aspirations: <span class="text-yellow-300">["UI/UX Designer", "Game Developer"]</span>,
     values: <span class="text-pink-300">["Perseverance", "Passion", "Patience"]</span>
 <span class="text-green-400">   &#125;</span>;</code>
-  </pre>
+      </pre>
+    </div>
+  </section>
 
+  <!-- desktop has two column layout -->
+  <section id="home" class="hidden lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center mt-28 w-full max-w-5xl mx-auto px-4 z-20">
+
+    <div class="rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+      <img src="/emi-image2.jpg" alt="emi" class="w-full h-[520px] object-cover"/>
+    </div>
+
+    <div class="rounded-2xl bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl px-8 py-8 font-outfit text-white flex flex-col gap-6">
+
+    <h2 class="text-3xl md:text-4xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
+      <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe"
+       class="inline-block align-middle"/>, &thinsp;&hairsp;I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span> </h2>
+
+      <pre class="text-[0.85rem] overflow-x-auto rounded-lg">
+<code><span class="text-blue-300">  const</span> emi = <span class="text-green-300">&#123;</span>
+    aspirations: <span class="text-yellow-300">["UI/UX Designer", "Game Developer"]</span>,
+    values: <span class="text-pink-300">["Perseverance", "Passion", "Patience"]</span>
+<span class="text-green-400">   &#125;</span>;</code>
+      </pre>
+
+      <p class="text-base xl:text-lg text-white/80 leading-relaxed">
+        I am a <u style="color: #98aafa;"><b style="color: #98aafa;">Computer Science</b> Major</u>, with a <u style="color: #98aafa;">Minor in <b style="color: #98aafa;">Data Science</b></u> and a <u style="color: #98aafa;">Minor in <b style="color: #98aafa;">Communication Studies</b></u> @ CSU Fullerton!
+      </p>
+
+      <p class="text-base xl:text-lg text-white/80 leading-relaxed">
+        I currently serve as the <b>President</b> of CSUF's 
+        <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
+        the <b>Co-Team Lead</b> for 
+        <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">ACM Node Buds</a>,
+        and <b>Officer</b> for 
+        <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">ACM Open Source.</a> ♡
+      </p>
+
+      <div class="flex justify-start text-2xl">
+        <a href="/Emily_Tsai_Resume.pdf" target="_blank" rel="noopener noreferrer" class="button">Resume</a>
+      </div>
     </div>
   </section>
 
 <!-- about -->
+  <!-- only shows on mobile since desktop inlines it above -->
+  <div class="lg:hidden w-full">
     <About />
+  </div>
 
 <!-- projects -->
     <Projects />

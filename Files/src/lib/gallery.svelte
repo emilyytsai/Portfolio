@@ -1,11 +1,11 @@
 <!-- gallery -->
-  <section id="gallery" class="fade-in font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
-    <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center"><br>Gallery</h4>
+  <section id="gallery" class="fade-in2 font-outfit relative z-20 w-full max-w-2xl lg:max-w-5xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5 sm:mt-2">
+    <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Gallery</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       A look into my leadership life + more!
     </p>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 sm:gap-3 lg:gap-4 mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 sm:gap-3 lg:gap-4 mx-auto">
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/33.jpeg" alt="image" class="w-full h-full object-cover"/>

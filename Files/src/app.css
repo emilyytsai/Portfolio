@@ -36,6 +36,16 @@ pre {
   transform: translateX(0);
 }
 
+/* regular fade */
+.fade-in2 {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.fade-in2.visible {
+  opacity: 1;
+}
+
 pre::-webkit-scrollbar {
   height: 6px;
 }
