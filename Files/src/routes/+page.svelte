@@ -151,7 +151,7 @@
 
 <!-- navbar (desktop) -->
     <nav class="fixed top-0 left-0 w-full bg-white/10 border border-white/5 backdrop-blur-md z-30">
-      <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="max-w-6xl mx-auto px-3 py-3 flex justify-between items-center">
         <a href="#home" class="flex items-center">
           <div class="shimmer underline-center font-outfit text-3xl font-semibold" data-text="Emily Tsai">
             Emily Tsai
@@ -209,7 +209,7 @@
 
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
     <h2 class="text-4xl md:text-5xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
-      <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe" class="inline-block align-middle"/>, &thinsp;I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span>
+      <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe" class="inline-block align-middle"/>, &thinsp;&hairsp;I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span>
     </h2>
 
   <pre class="text-[0.80rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">

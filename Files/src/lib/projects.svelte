@@ -1,5 +1,5 @@
 <!-- projects -->
-<section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4 sm:space-y-6">
+<section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4 sm:space-y-6 mt-2">
   <h4 class="fade-in text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Projects</h4>
 
   <div class="fade-in-x project-card">

@@ -1,5 +1,5 @@
 <!-- about -->
-  <section id="about" class="fade-in font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5">
+  <section id="about" class="fade-in font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-1 sm:space-y-3 lg:space-y-5 mt-2">
     <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center pt-6">About Me</h4>
     <p class="text-base sm:text-lg lg:text-xl text-white text-center py-2">
       I am a <u style="color: #98aafa;"><b style="color: #98aafa;">Computer Science</b> Major</u>, with a <u style="color: #98aafa;">
