@@ -29,10 +29,10 @@
           }
         });
       },
-      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
+      { threshold: 0.03, rootMargin: '0px 0px -15px 0px' }
     );
 
-    document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+    document.querySelectorAll('.fade-in, .fade-in-x').forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   });
 </script>

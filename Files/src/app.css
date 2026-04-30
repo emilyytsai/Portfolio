@@ -25,6 +25,17 @@ pre {
   transform: translateY(0);
 }
 
+/*scroll horizontal slide */
+.fade-in-x {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+.fade-in-x.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 pre::-webkit-scrollbar {
   height: 6px;
 }

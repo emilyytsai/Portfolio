@@ -1,8 +1,8 @@
 <!-- projects -->
-<section id="projects" class="fade-in font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4 sm:space-y-6">
-  <h4 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Projects</h4>
+<section id="projects" class="font-outfit relative z-20 max-w-2xl mx-auto px-4 py-6 space-y-4 sm:space-y-6">
+  <h4 class="fade-in text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center">Projects</h4>
 
-  <div class="project-card">
+  <div class="fade-in-x project-card">
     <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[370px] overflow-hidden">
       <img src="/project-1.png" alt="image" class="w-full h-full object-cover"/>
     </div>
@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="fade-in-x project-card">
     <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[370px] overflow-hidden">
       <img src="/game-5.png" alt="image" class="w-full h-full object-cover"/>
     </div>
@@ -44,7 +44,7 @@
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="fade-in-x project-card">
     <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[370px] overflow-hidden">
       <img src="/game-3.png" alt="image" class="w-full h-full object-cover"/>
     </div>
@@ -63,7 +63,7 @@
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="fade-in-x project-card">
     <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[370px] overflow-hidden">
       <img src="/game-1.png" alt="image" class="w-full h-full object-cover"/>
     </div>
@@ -82,7 +82,7 @@
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="fade-in-x project-card">
     <div class="relative aspect-[16/9] sm:h-[120px] lg:h-[370px] overflow-hidden">
       <img src="/game-6.png" alt="image" class="w-full h-full object-cover"/>
     </div>

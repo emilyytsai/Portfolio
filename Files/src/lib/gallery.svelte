@@ -8,6 +8,10 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 sm:gap-3 lg:gap-4 mx-auto">
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
+        <img src="/33.jpeg" alt="image" class="w-full h-full object-cover"/>
+      </div>
+
+      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/32.jpeg" alt="image" class="w-full h-full object-cover"/>
       </div>
 
