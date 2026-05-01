@@ -20,22 +20,41 @@
   }
 
   onMount(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          } else {
-            entry.target.classList.remove('visible');
-          }
-        });
-      },
-      { threshold: 0.03, rootMargin: '0px 0px -15px 0px' }
-    );
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        } else {
+          entry.target.classList.remove('visible');
+        }
+      });
+    },
+    { threshold: 0.03, rootMargin: '0px 0px -15px 0px' }
+  );
 
-    document.querySelectorAll('.fade-in, .fade-in-x, .fade-in2').forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  });
+  //separate observer for tall sections like gallery so that it fires before entering viewport
+  const earlyObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        } else {
+          entry.target.classList.remove('visible');
+        }
+      });
+    },
+    { threshold: 0, rootMargin: '300px 0px 0px 0px' }
+  );
+
+  document.querySelectorAll('.fade-in, .fade-in-x').forEach((el) => observer.observe(el));
+  document.querySelectorAll('.fade-in2').forEach((el) => earlyObserver.observe(el));
+
+  return () => {
+    observer.disconnect();
+    earlyObserver.disconnect();
+  };
+});
 </script>
 
 <svelte:head>
