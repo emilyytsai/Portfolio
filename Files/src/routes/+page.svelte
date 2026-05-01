@@ -241,11 +241,12 @@
   <!-- desktop has two column layout -->
   <section class="hidden lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center mt-28 w-full max-w-5xl mx-auto px-4 z-20">
 
-    <div class="rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+    <div class="rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl duration-300 hover:-translate-y-2">
       <img src="/emi-image2.jpg" alt="emi" class="w-full h-[520px] object-cover"/>
     </div>
 
-    <div class="rounded-2xl bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl px-8 py-8 font-outfit text-white flex flex-col gap-6">
+    <div class="rounded-2xl bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl px-8 py-8
+                font-outfit text-white flex flex-col gap-6 duration-300 hover:-translate-y-2">
 
     <h2 class="text-3xl md:text-4xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
       <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe"
