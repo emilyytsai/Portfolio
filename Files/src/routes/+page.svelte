@@ -216,9 +216,12 @@
 {/if}
 
 <!-- home -->
-  <!-- mobile only has a centered single card -->
-  <section id="home" class="lg:hidden card mt-28 mx-auto w-full max-w-full sm:max-w-md px-0 z-20 rounded-2xl
-                            overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+<div id="home"></div>
+
+<!-- mobile only has a centered single card -->
+<div class="lg:hidden card mt-28 mx-auto w-full max-w-full sm:max-w-md px-0 z-20 rounded-2xl
+                        overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
+ 
     <div class="relative aspect-[4/3] sm:h-[360px] overflow-hidden">
       <img src="/emi-image2.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
@@ -233,10 +236,10 @@
 <span class="text-green-400">   &#125;</span>;</code>
       </pre>
     </div>
-  </section>
+  </div>
 
   <!-- desktop has two column layout -->
-  <section id="home" class="hidden lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center mt-28 w-full max-w-5xl mx-auto px-4 z-20">
+  <section class="hidden lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center mt-28 w-full max-w-5xl mx-auto px-4 z-20">
 
     <div class="rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
       <img src="/emi-image2.jpg" alt="emi" class="w-full h-[520px] object-cover"/>
