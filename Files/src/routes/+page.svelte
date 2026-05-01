@@ -176,7 +176,7 @@
       <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
         <li><a href="#home" class="nav-link">Home</a></li>
         <!-- About Me hidden on desktop since it's inlined in the home section -->
-        <li class="lg:hidden"><a href="#about" class="nav-link">About Me</a></li>
+        <li class="md:hidden"><a href="#about" class="nav-link">About Me</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
         <li><a href="#gallery" class="nav-link">Gallery</a></li>
@@ -219,7 +219,7 @@
 <div id="home"></div>
 
 <!-- mobile only has a centered single card -->
-<div class="lg:hidden card mt-28 mx-auto w-full max-w-full sm:max-w-md px-0 z-20 rounded-2xl
+<div class="md:hidden card mt-28 mx-auto w-full max-w-full sm:max-w-md px-0 z-20 rounded-2xl
                         overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
  
     <div class="relative aspect-[4/3] sm:h-[360px] overflow-hidden">
@@ -229,7 +229,7 @@
       <h2 class="text-4xl md:text-5xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
         <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe" class="inline-block align-middle"/>, &thinsp;&hairsp;I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span>
       </h2>
-      <pre class="text-[0.80rem] lg:text-[0.95rem] pb-2 overflow-x-auto rounded-lg">
+      <pre class="text-[0.80rem] md:text-[0.95rem] pb-2 overflow-x-auto rounded-md">
 <code><span class="text-blue-300">  const</span> emi = <span class="text-green-300">&#123;</span>
     aspirations: <span class="text-yellow-300">["UI/UX Designer", "Game Developer"]</span>,
     values: <span class="text-pink-300">["Perseverance", "Passion", "Patience"]</span>
@@ -239,7 +239,7 @@
   </div>
 
   <!-- desktop has two column layout -->
-  <section class="hidden lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center mt-28 w-full max-w-5xl mx-auto px-4 z-20">
+  <section class="hidden md:grid md:grid-cols-2 md:gap-12 md:items-center mt-28 w-full max-w-5xl mx-auto px-4 z-20">
 
     <div class="rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl duration-300 hover:-translate-y-2">
       <img src="/emi-image2.jpg" alt="emi" class="w-full h-[520px] object-cover"/>
@@ -252,18 +252,18 @@
       <span class="text-sm md:text-xl">₊˚⊹</span> Hello&nbsp;<img src="https://github.com/user-attachments/assets/2b86e697-a3c6-4460-88d1-86d4a4711225" width="50" height="50" alt="spinning globe"
        class="inline-block align-middle"/>, &thinsp;&hairsp;I'm Emi! <span class="text-sm md:text-2xl">⊹˚₊</span> </h2>
 
-      <pre class="text-[0.85rem] overflow-x-auto rounded-lg">
+      <pre class="text-[0.85rem] overflow-x-auto rounded-md">
 <code><span class="text-blue-300">  const</span> emi = <span class="text-green-300">&#123;</span>
     aspirations: <span class="text-yellow-300">["UI/UX Designer", "Game Developer"]</span>,
     values: <span class="text-pink-300">["Perseverance", "Passion", "Patience"]</span>
 <span class="text-green-400">   &#125;</span>;</code>
       </pre>
 
-      <p class="text-base xl:text-lg text-white/80 leading-relaxed">
+      <p class="text-base xl:text-md text-white/80 leading-relaxed">
         I am a <u style="color: #98aafa;"><b style="color: #98aafa;">Computer Science</b> Major</u>, with a <u style="color: #98aafa;">Minor in <b style="color: #98aafa;">Data Science</b></u> and a <u style="color: #98aafa;">Minor in <b style="color: #98aafa;">Communication Studies</b></u> @ CSU Fullerton!
       </p>
 
-      <p class="text-base xl:text-lg text-white/80 leading-relaxed">
+      <p class="text-base xl:text-md text-white/80 leading-relaxed">
         I currently serve as the <b>President</b> of CSUF's 
         <a href="https://vgdccsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">Video Game Development Club (VGDC),</a>
         the <b>Co-Team Lead</b> for 
@@ -280,7 +280,7 @@
 
 <!-- about -->
   <!-- only shows on mobile since desktop inlines it above -->
-  <div class="lg:hidden w-full">
+  <div class="md:hidden w-full">
     <About />
   </div>
 
@@ -293,6 +293,15 @@
     <Gallery />
 
 <!-- footer -->
+  <!-- signature -->
+  <div class="relative z-20 mt-8 flex justify-center">
+    <img 
+      src="/signature.png" 
+      alt="Emily Tsai signature" 
+      class="w-24 sm:w-30 md:w-36 mix-blend-screen"
+      style="opacity: 0.85;"
+    />
+  </div>
     <footer class="font-outfit relative z-20 text-center text-white/50 text-sm py-6">
       <p>© 2026 Emily Tsai</p>
     </footer>
