@@ -12,22 +12,12 @@
       </div>
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
-        <img src="/32.jpeg" alt="image" class="w-full h-full object-cover"/>
-      </div>
-
-      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/31.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/30.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
-      <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
-        <img src="/29.png" alt="image" class="w-full h-full object-cover"/>
-      </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/28.png" alt="image" class="w-full h-full object-cover"/>
@@ -37,7 +27,6 @@
         <img src="/27.png" alt="image" class="w-full h-full object-cover"/>
       </div>
       
-      
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/26.jpeg" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -45,7 +34,6 @@
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/25.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/24.png" alt="image" class="w-full h-full object-cover"/>
@@ -55,7 +43,6 @@
         <img src="/23.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/22.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -63,7 +50,6 @@
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/21.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/20.png" alt="image" class="w-full h-full object-cover"/>
@@ -73,7 +59,6 @@
         <img src="/19.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/18.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -81,7 +66,6 @@
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/17.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/16.png" alt="image" class="w-full h-full object-cover"/>
@@ -91,7 +75,6 @@
         <img src="/15.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/14.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -99,7 +82,6 @@
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/13.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/12.png" alt="image" class="w-full h-full object-cover"/>
@@ -109,7 +91,6 @@
         <img src="/11.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/10.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -118,7 +99,6 @@
         <img src="/9.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/8.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -126,7 +106,6 @@
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/7.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-      
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/6.png" alt="image" class="w-full h-full object-cover"/>
@@ -136,7 +115,6 @@
         <img src="/5.png" alt="image" class="w-full h-full object-cover"/>
       </div>
 
-
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/4.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -144,7 +122,6 @@
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/3.png" alt="image" class="w-full h-full object-cover"/>
       </div>
-
 
       <div class="relative w-full aspect-[4/3] border border-white/15 rounded-2xl shadow-2xl overflow-hidden hover:scale-105 transition">
         <img src="/2.png" alt="image" class="w-full h-full object-cover"/>
