@@ -71,38 +71,41 @@
     class="fixed inset-0 bg-zinc-900 flex items-center justify-center z-50 overflow-hidden"
     out:fade={{ duration: 500 }}
   >
+    <!--bg vid -->
+    <video
+      class="absolute inset-0 w-full h-full object-cover z-0 opacity-40 pointer-events-none"
+      autoplay muted loop playsinline preload="auto"
+    >
+      <source src="/bg-video.mp4" type="video/mp4" />
+    </video>
 
 <!-- stars bg -->
 <pre class="stars-bg">
-              ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣄⠳
-              ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦
-              ⣿⣿⠿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⣿⣿⣿⣿⣿⣿⠿⠿⣿⣿⣽⣿⣿⣿⣿⡿⠟⠉⠀⣀⣀⣠⠤⠤⣤⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⠿⠟⠋⡁⠀⠀⢤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠿⣿⣶⣶⣤⣤⣤⣤⣤⣴⡖⠀⣠⠀⠘⣿⣿⢿⣿⣿⡟⣿⣿⣿⣿⣿
-              ⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⣲⡀⢹⡀⢳⣸⣤⣶⡞⢿⠛⠛⠛⠛⠒⠦⣄⠀⠀⠀⠀⠈⠉⠉⠛⠛⠛⠋⣁⡤⣾⠟⠁⠀⠘⣿⣯⢻⣿⣿⣿⢿⣿⣿⣿
-              ⣿⣿⣿⣿⣿⡿⠿⠋⠀⠀⠀⠀⠳⣽⣷⣿⣿⣿⣿⣿⢿⣿⣷⣦⣀⠀⠀⠀⠀⠹⠶⠖⠀⠀⠀⠀⠀⠀⠀⠈⠁⠉⠁⠀⠀⠀⠀⣸⣿⣧⡹⣿⣿⣿⣿⢿⣿
-              ⣼⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣈⣍⡈⢿⣿⣧⣤⣿⣿⠟⢿⣷⣄⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⢸⣿⡇⠻⣷⡼⣿⣿⣷⣿⣿
-              ⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢻⣿⣿⣽⣛⠛⠛⠁⠀⠀⠈⠻⣷⠀⠀⠀⠀⠀⣜⡆⠀⠀⠀⠀⠀⠀⠀⢀⡤⠚⠁⠈⣿⣷⡀⠈⠻⣿⣿⣿⣷⢯
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢮⡙⠻⠶⠦⠤⣄⣀⠀⠾⠳⡄⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⣠⡾⠋⠀⠀⠀⠀⠈⠻⣷⡄⠀⣿⣿⣿⣿⣾
-              ⢂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠒⠂⠀⠀⡏⢷⠀⠀⠀⠀⠀⠀⢸⠇⠀⠀⠀⠀⣰⠏⠀⠉⠉⠉⠻⣷⡒⠀⠙⣿⣰⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⠘⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣾⠿⣿⣷⣦⣀⣘⣧⣀⣠⣼⣿⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡀⢀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢸⣿⣶⣿⣿⡿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡿⠈⠻⣟⠛⠋⠀⢘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠻⢿⣻⣿⣿⡗⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⡀⠀⠀⠀⠀⠘⡇⠀⠀⠀⠀⠀⢀⠘⠁⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠾⠿⠟⠉⠀⠀⠀⠀⠀⠀⣧⠀⠀⠀⠀⠀⡼⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⡼⠁⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠖⠒⠒⠲⣄⠀⠀⠀⠀⠀⢸⠄⠀⢀⠜⠁⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⠹⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀⣠⣶⠋⠀⡰⠋⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⠀⠸⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠞⠹⣿⣿⡿⠿⠛⠁⣠⠊⢠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⣆⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣴⠶⠖⠒⠲⣤⡋⠀⢰⠃⠀⠀⠀⡠⠎⣀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-              ⢸⡀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣶⣾⣿⣯⣭⣤⣤⣤⣀⡀⠛⠈⠓⠶⢺⣦⠀⠠⠊⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣿⣿⣿⣿⣿⣿⣿
-              ⠀⡇⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⢀⠈⠙⠿⣿⣶⣮⣭⣙⠛⢶⣶⣿⡿⠏⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⣿⣿⣿⣿⣿⣿⣿
-              ⠀⢁⢸⢸⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣾⣳⣀⣀⠈⣽⡻⠿⣿⣿⣿⡟⠁⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿
-              ⠀⢸⡏⢸⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢿⣧⣄⡀⠀⢀⡀⣰⡟⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣿⣧⣻⣿⣿⣿⣿⣿⣿⣿
-              ⠀⡼⠀⠘⣿⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠯⠿⣻⡿⠟⠋⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿
-              ⡞⠁⠀⠀⣿⣿⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠁⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿
-              ⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣷⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠃⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣿⣿⣿⡷⡿⡿⠿⠿⢿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                          ⠀⠀⠀⠀⠀⠀⠀⣀⡄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀      ⠀⠀       ⠀⠀⡀⠀⡀⡀⠂⠂⠈⠀⡐⠁⠀⠈ ⡐ ⠀
+                          ⠀⠀⠀⠀⠀⠀⠐⢿⠓⠀⢀⡴⡏⠀⠀⠀⠀⠀        ⠀⠀     ⠀⣀⠔⢂⠁⠁⠀⠀⡐⠈⡐⠁⠀⡐⠁⡐
+                          ⠀⠀⠹⡒⠤⣀⡀⠀⢀⡴⠋⢠⠇⠀⠀⠀       ⠀⠀       ⠠⠐⠈⠀⠀⠀⠀⡀⠐⠁⡐⠁⠀⠄⡐
+                          ⠀⠀⠀⠱⡀⠀⠉⠑⠋⠀⠀⣸⠀   ⠀      ⠀⠀    ⠐⠈⠀⠀⠀⠀⠀⢀⠄⠁⢀⠂⠀⠀⠀⠨⠀
+                          ⠀⠀⠀⠀⢱⡄⠀⠀⠀⠀⠀⠉⠒⠤⣀⡀⠀⠀⠀⠀  ⠀⠀            ⡄⠁⠀⡀⠠⠁⠀⠀⠐⠁⠀
+                          ⠀⠀⠀⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣈⠵⠦    ⠀⠀         ⡠⠈⠀⠀⠀⡐⠁⠀⠀⠀⠂⠀⠀
+                          ⢀⡤⠋⣀⣀⣀⣤⠀⠀⠀⢰⠋⠉⠀⠀⠀               ⢀⠂⠀⠀⠀⠈⠠⠀⠀⠀⠀⠰⡁⠀⠀
+                          ⠈⠉⠁⠀⠀⠀⠀⢧⠀⠀⡏⠀⠀⠀      ⠀⠀       ⠀⠔⠁⠀⠀⠀⠀⡐⠀⠀⠀⠀⠀⠅⠀⠀⠀
+                          ⠀⢐⣶⣆⠀⠀⢠⠈⢇⢰⠃⠀⠀     ⠀          ⠄⠁⠀⠀⢀⠀⢀⠂⠀⠀⣰⡄⠀⠂⠐⠀⠀⠀
+                          ⠀⠈⠙⠀⠀⠀⣏⣧⠈⠟⠀     ⠀⠀        ⢀⠁⠀⠀⠀⠽⡿⠆⠇⠀⠀⢀⣿⣿⣦⣶⣶⠟⠀⠀
+                          ⠀⠀⠀⠀⣀⣸⣿⣯⢧⠤⣤⣦⣴⠦       ⠀⠀⠐        ⠀⠁⠀⠀⠛⠿⣿⣿⣿⣿⣿⡁⠀⠀⠀
+                          ⠀⠙⠯⡻⣿⣿⣿⣿⣿⣿⡿⠟⠁⠀⠰⣄⣠⡇   ⠐⠀           ⠀⠂⠀⠀⢸⣿⡿⠛⠛⠿⣆⠀⠀
+                          ⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⠁⠀⠀⠀⣠⢿⣿⠟⠒⠀ ⠐ ⠀   ⠀⠀      ⠐ ⠀⠸⠊⠁⠀⢐⠀⠀⠀⠀
+                          ⠀⠀⠀⠀⡾⣿⠿⠺⢝⡯⢧⠀⠀⠀⠀⠀⠻⠀⠀  ⠐  ⠀⠀         ⠀⠂⠀⠀⠀⠀⡐⠂⠀⠀⠠⠁
+                          ⠀⠀⠀⢼⠓⠁⠀⠀⠀⠉⠺⠆⠀⠀⠀⠀⠀⠀  ⠐⠀⠀           ⠀⡸⠀⠀⢀⢿⠐⠀⠀⠀⡐⠁⠀
+                          ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠐ ⠀⠀          ⢀⠂⠀⠀⡜⡌⡇⠀⠀⡐⠀⠀⠀
+                        ⠀⠀⠀   ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⠐⠀⠀          ⠙⢟⡒⠒⠛⠁⠀⠘⠒⠒⢲⡶⠂⠀
+                        ⠀⠀⠀⠀⠀⠀   ⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀ ⠐  ⠀⠀         ⣤⣖⠀⠈⢢⠀⠀⠀⠀⡤⠛⠁⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⠀⠀⠀ ⠀    ⠐ ⠀⠀⠀⠀      ⠈⠻⠉⠀⢠⠇⢀⡤⣀⠌⢳⠀⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠐        ⠀⠀   ⠐  ⠀⡿⠊⠁⠀⠈⠳⣼⡄⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⠀⠀⠐⠀   ⠀⠀   ⠀⠀  ⠐      ⠀⠀⢀⠂⠈⠉⠀⠀⠀⠀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠐ ⠀⠀   ⠀   ⠀⠀ ⠐        ⠀⢰⡆⠀⣀⠀⠀⢀⣄⡀
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀           ⠀⠐         ⠶⢾⣿⣟⠁⠀⠀⠺⡟⠃
+                        ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀   ⠀       ⠐⠀         ⠀⢻⡏⢉⠓⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 </pre>
 
   <!-- animate.css -->
@@ -110,7 +113,7 @@
       Emily Tsai
     </h1>
 
-    <div class="fixed inset-0 z-0 pointer-events-none grid-bg"></div>
+    <div class="fixed inset-0 z-0 pointer-events-none"></div>
 
     <!--<div class="absolute inset-0 z-10">
     <Aurora
@@ -129,6 +132,15 @@
   class="relative min-h-screen bg-zinc-900 text-white flex flex-col items-center"
   class:invisible={showIntro}
 >
+
+<!--bg vid -->
+  <video
+    class="fixed inset-0 w-full h-full object-cover z-0 opacity-30 pointer-events-none"
+    autoplay muted loop playsinline preload="auto"
+  >
+    <source src="/bg-video.mp4" type="video/mp4" />
+  </video>
+
   <!-- stars bg main -->
     <pre class="stars-bg-main">
                           ⠀⠀⠀⠀⠀⠀⠀⣀⡄⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀      ⠀⠀       ⠀⠀⡀⠀⡀⡀⠂⠂⠈⠀⡐⠁⠀⠈ ⡐ ⠀
@@ -156,22 +168,22 @@
                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀           ⠀⠐         ⠶⢾⣿⣟⠁⠀⠀⠺⡟⠃
                         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀   ⠀       ⠐⠀         ⠀⢻⡏⢉⠓⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
     </pre>
-    <div class="fixed inset-0 z-0 pointer-events-none grid-bg"></div>
+    <div class="fixed inset-0 z-0 pointer-events-none"></div>
 
-    <div class="fixed inset-0 z-10">
+    <!-- <div class="fixed inset-0 z-10">
       <Aurora
         colorStops={['#001675', '#A2A5A8', '#6c80d9']}
         amplitude={2}
         blend={10}
         speed={0.1}
       />
-    </div>
+    </div> -->
 
 <!-- navbar (desktop) -->
   <nav class="fixed top-0 left-0 w-full bg-white/10 border border-white/5 backdrop-blur-md z-30">
     <div class="max-w-6xl mx-auto px-3 py-3 flex justify-between items-center">
       <a href="#home" class="flex items-center">
-        <div class="shimmer underline-center font-outfit text-3xl font-semibold" data-text="Emily Tsai">Emily Tsai</div>
+        <div class="underline-center hover:text-[#98aafa] font-outfit text-3xl font-semibold" data-text="Emily Tsai">Emily Tsai</div>
       </a>
       <ul class="hidden md:flex space-x-6 text-[1.375rem] font-outfit text-white">
         <li><a href="#home" class="nav-link">Home</a></li>
@@ -272,7 +284,7 @@
         <a href="https://acmcsuf.com/" target="_blank" rel="noopener noreferrer" style="color: #6c80d9;" class="hover:underline font-bold">ACM Open Source.</a> ♡
       </p>
 
-      <div class="flex justify-start text-2xl">
+      <div class="flex justify-center text-2xl">
         <a href="/Emily_Tsai_Resume.pdf" target="_blank" rel="noopener noreferrer" class="button">Resume</a>
       </div>
     </div>
