@@ -4,7 +4,7 @@
 
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
 
-    <div class="fade-in-x project-card">
+    <div class="project-card">
       <div class="relative aspect-[16/9] overflow-hidden">
         <img src="/project-1.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <div class="fade-in-x project-card">
+    <div class="project-card">
       <div class="relative aspect-[16/9] overflow-hidden">
         <img src="/game-5.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <div class="fade-in-x project-card">
+    <div class="project-card">
       <div class="relative aspect-[16/9] overflow-hidden">
         <img src="/game-3.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="fade-in-x project-card">
+    <div class="project-card">
       <div class="relative aspect-[16/9] overflow-hidden">
         <img src="/game-1.png" alt="image" class="w-full h-full object-cover"/>
       </div>
@@ -85,7 +85,7 @@
     </div>
 
     <!-- this card is centered bc of odd number -->
-    <div class="fade-in-x project-card lg:col-span-2 lg:max-w-xl lg:mx-auto lg:w-full">
+    <div class="project-card lg:col-span-2 lg:max-w-xl lg:mx-auto lg:w-full">
       <div class="relative aspect-[16/9] overflow-hidden">
         <img src="/game-6.png" alt="image" class="w-full h-full object-cover"/>
       </div>
