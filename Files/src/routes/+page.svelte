@@ -235,7 +235,7 @@
                         overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl">
  
     <div class="relative aspect-[4/3] sm:h-[360px] overflow-hidden">
-      <img src="/emi-image4.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
+      <img src="/emi-image5.jpg" alt="emi" class="absolute inset-0 w-full h-full object-cover"/>
     </div>
     <div class="font-outfit px-4 pt-6 space-y-8 text-white">
       <h2 class="text-4xl md:text-5xl font-bold text-center flex items-center justify-center gap-2 flex-wrap">
@@ -254,7 +254,7 @@
   <section class="hidden md:grid md:grid-cols-2 md:gap-12 md:items-center mt-28 w-full max-w-5xl mx-auto px-4 z-20">
 
     <div class="rounded-2xl overflow-hidden bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl duration-300 hover:-translate-y-2">
-      <img src="/emi-image4.jpg" alt="emi" class="w-full h-[520px] object-cover"/>
+      <img src="/emi-image5.jpg" alt="emi" class="w-full h-[520px] object-cover"/>
     </div>
 
     <div class="rounded-2xl bg-white/5 backdrop-blur-md border border-white/15 shadow-2xl px-8 py-8
