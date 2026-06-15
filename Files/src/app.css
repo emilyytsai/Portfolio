@@ -2,11 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* no horizontal scrolling or rubber banding on mobile*/
+/* no horizontal scrolling*/
 html, body {
   overflow-x: hidden;
   background-color: #18181b; 
-  overscroll-behavior-y: none;
 }
 
 /* scrolling bar stuff */
